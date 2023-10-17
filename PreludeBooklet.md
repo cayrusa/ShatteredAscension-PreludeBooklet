@@ -15,7 +15,7 @@
 
 ## Components
 
-- A deck of 60ish **Prelude Cards**, each containing a list of **Perks**.
+- A deck of 60ish **Prelude Cards**, each containing a list of **Perks** and displaying an **initiative number**.
 - 18 special **Racial Prelude Cards**, one for each playable race
 
 <p class="aligncenter">
