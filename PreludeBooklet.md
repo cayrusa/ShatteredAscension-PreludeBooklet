@@ -28,7 +28,7 @@ And 8 **Base Prelude Card**, each containing
 </details>
 
 ## General Rules and Definitions
-- Each player has a **Reserve** area to store the units they will then send on claims
+- Each player has a **Quick Reaction Force** (**QRF** for short) area to store the units they will then send on claims
 - Leaders have no effect, and enter play after the prelude is done, at any friendly planets or ships.
 - Technologies have no effect, except during combats
 
@@ -39,7 +39,7 @@ Define what a claim is, and how claim ranges work
 
 ## Process
 
-- Players (except Saar) place their starting Space Dock in their Home System. They place their other starting units in their reserve.
+- Players (except Saar) place their starting Space Dock in their Home System. They place their other starting units in their Quick Reaction Force.
 
 ### Phase 1: Prelude Cards Selection
 
@@ -49,9 +49,9 @@ Define what a claim is, and how claim ranges work
 
 ### Phase 2: Production and Claims
 
-- In secret, players produce units at their starting Space Dock, respecting its production capacity and using the resource value of their Home System. They place these units in their reserve (reserves are private). Ignore Technologies at this step
-- Some Prelude Cards will add bonus units to the reserve of a player
-- In secret, players assign units from their reserve to their Prelude Cards with claims, and choose which system/planets these claim target. Unassigned units are considered as assigned to their Home System.
+- In secret, players produce units at their starting Space Dock, respecting its production capacity and using the resource value of their Home System. They place these units in their Quick Reaction Force (they are private). Ignore Technologies at this step
+- Some Prelude Cards will add bonus units to the Quick Reaction Force of a player
+- In secret, players assign units from their Quick Reaction Force to their Prelude Cards with claims, and choose which system/planets these claim target. Unassigned units are considered as assigned to their Home System.
 - Reveal all
 - Resolve Space Battle between fleets that moved to the same system. Winning fleets can land their cargo on any planets in the system. Technologies do apply for combats.
 - Resolve Invasion Combat between ground units on the same planets. Technologies do apply for combats.
