@@ -1,4 +1,5 @@
-# The Prelude Variant - v1_2023-10-16
+# The Prelude Variant
+*V1_2023-10-16*  
 ***By Cyrusa and Cue***  
 
 > Prelude is a variant for Twilight Imperium:Shattered Ascension, that aims to replace the usual first 2 rounds of territorial claims and expansions with a higher level setup process, in order to reach the midgame (roughly round 3) quicker and with interesting board configurations.
@@ -24,18 +25,31 @@
 
 <details>
 	<summary>TODO</summary>
-And 8 **Base Prelude Card**, each containing 
+And 8 **Base Prelude Card**, each containing ...
 </details>
 
 ## General Rules and Definitions
+- The complete process described in this variant is referred to as **the prelude** in this booklet.
 - Each player has a **Quick Reaction Force** (**QRF** for short) area to store the units they will then send on claims
-- Leaders have no effect, and enter play after the prelude is done, at any friendly planets or ships.
-- Technologies have no effect, except during combats
+- **Leaders** have no effect during the prelude, and enter play after it is complete, at any friendly planets or ships.
+- **Technologies** have no effect during the prelude, except during combats
+- **Racial Abilies** have no effect during the prelude, except combat-related ones.
 
-<details>
-	<summary>TODO</summary>
-Define what a claim is, and how claim ranges work
-</details>
+### Claims
+Most Prelude Cards contain a **Claim**. Players use these to expand their territory during the prelude. For each Claim, they will choose a planet or system to target with it, and will assign units to it. There are different types of claims.
+
+**Types of Claims**
+- Planet Claim: target a single planet. Only ground units, PDS and Space Docks can be assigned to that claim.
+- System Claim: target an entire system. Any units can be assigned to that claim. Ground units, PDS and Space Docks have to be assigned to a specific planet of that system.
+
+Additionally, each Claim has an indicated range.
+
+**Range of a Claim**
+- "Range 2": the target of that claim must be 2 spaces away or less from the player's Home System. For this purpose, Supernova and Collapsed Space-Time completely block the range calculation, and flippable wormholes are treated as having both wormholes active.
+- "Adjacent": the target of that claim must be adjacent to the player's Home System, or to a system/planet that is the target of one of their other claims.
+- Other: some claims have more specific ranges, or none at all.
+
+Some Claims have additional specifications as to what they can target, like requiring a specific colour of Technology Specialty to be present.
 
 ## Process
 
