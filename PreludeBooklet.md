@@ -51,27 +51,28 @@ Some Claims have additional specifications as to what they can target, like requ
 
 ## Process
 
-- Players (except Saar) place their starting Space Dock in their Home System. They place their other starting units in their Quick Reaction Force.
-
 ### Phase 1: Prelude Cards Selection
 
-- Player get their race-specific Prelude Card
-- Reveal 3 random Political Cards
-- Players draw 7 Prelude Cards, discard 3 of them face-down
+- Each player draws 2 Political Cards
+- Reveal the top 3 Political Cards from the deck. They will be voted on in Phase 3
+- Player get their race-specific Prelude Card, and a Basic Prelude Card
+- Players draw 7 Prelude Cards, and discard 3 of them face-down
 
 ### Phase 2: Production and Claims
 
-- In secret, players produce units at their starting Space Dock, respecting its production capacity and using the resource value of their Home System. They place these units in their Quick Reaction Force (they are private). Ignore Technologies at this step
-- Some Prelude Cards will add bonus units to the Quick Reaction Force of a player
-- In secret, players assign units from their Quick Reaction Force to their Prelude Cards with claims, and choose which system/planets these claim target. Unassigned units are considered as assigned to their Home System.
-- Reveal all
-- Resolve Space Battle between fleets that moved to the same system. Winning fleets can land their cargo on any planets in the system. Technologies do apply for combats.
-- Resolve Invasion Combat between ground units on the same planets. Technologies do apply for combats.
+- Players place their starting Space Dock in their Home System. The rest of their starting units goes to their Quick Reaction Force.
+- In secret, players produce units at their starting Space Dock, respecting its production capacity and using the resource value of their Home System for payment. They place these units in their Quick Reaction Force.
+- If they hold Prelude Cards granting QRF units, they add them to their Quick Reaction Force.
+- In secret, players assign units from their Quick Reaction Force to their Prelude Cards with claims, and choose which system/planets these claim target. Unassigned units are considered as assigned to their Home System. Some Prelude Cards grant units, add them as assigned to the claim of that card.
+- All Prelude Cards, along with their target and assigned units are revealed. Units assigned to planet claims are placed on these planets, while units assigned to a system claim are placed in space for the time being
+- For each system containing ships of 2 players, resolve a Space Battle. The player with initiative is the defender (intuitively, he moved there first with lower initiative, then the other player arrived). Refer to the special case below if more than 2 players have ships in the same system. If a player loses all their ships in a system, all the ground units, PDS and Space Docks they also assigned to that system are destroyed
+- In initiative order, players with ground units, PDS or Space Dock assigned to a system may assign them to specific planets of that system. These units that did not get assigned to a planet must be placed on ships in the system with adequate capacity, or be destroyed.
+- For each planet containing units of 2 players, resolve an Invasion Combat. If one of them has ships in the system, then they are the attacker. Otherwise, the player with initiative is the defender. Ships of the attacker can bombard (but may only bombard in a single Invasion Combat in that system).
+- If a planet contains Domain Counters and a player's units, resolve them.
+- Players take the planet cards of the planets they now control
 
-<details>
-	<summary>TODO</summary>
-Domain Counters should resolve. What if two players have ground units on a planet with Domain Counters
-</details>
+**Special Case: 3+ players have units contesting the same space/planet**
+If a system/planet contains ships/units of more than 2 players, the player with initiative resolves (as the defender) a Space Battle/Invasion Combat against the player with the second-lowest initiative. Repeat this process until at most 1 player has units left. Exception: if a player contests a planet in a system in which they have ships, they are treated as having the highest initiative of all contestants.
 
 ### Phase 3: Assembly and Trade
 - Conduct an Assembly. Players have as many votes as double the influence value of their Home System. Voice of the Council can be called.
