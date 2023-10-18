@@ -34,6 +34,8 @@ And 8 **Base Prelude Card**, each containing ...
 - **Leaders** have no effect during the prelude, and enter play after it is complete, at any friendly planets or ships.
 - **Technologies** have no effect during the prelude, except during combats
 - **Racial Abilies** have no effect during the prelude, except combat-related ones.
+- **Retreats** are not possible during the prelude.
+- Each player will have a hand of Prelude Cards, each featuring an initiative number. The **initiative** of a player is the lowest initiative number among their cards. A player is said to **have initiative** over another when their initiative is lower.
 
 ### Claims
 Most Prelude Cards contain a **Claim**. Players use these to expand their territory during the prelude. For each Claim, they will choose a planet or system to target with it, and will assign units to it. There are different types of claims.
