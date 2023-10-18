@@ -26,19 +26,19 @@
 
 ## General Rules and Definitions
 - The complete process described in this variant is referred to as **the prelude** in this booklet.
-- Each player has a **Quick Reaction Force** (**QRF** for short) area to store the units they will then send on claims
+- Each player has a **Quick Reaction Force** (**QRF** for short) area to store the units they will then send on claims. These areas are private.
 - **Leaders** have no effect during the prelude, and enter play after it is complete, at any friendly planets or ships.
 - **Technologies** have no effect during the prelude, except during combats
 - **Racial Abilies** have no effect during the prelude, except combat-related ones.
 - **Retreats** are not possible during the prelude.
-- Each player will have a hand of Prelude Cards, each featuring an initiative number. The **initiative** of a player is the lowest initiative number among their cards. A player is said to **have initiative** over another when their initiative is lower.
+- Each player will have a hand of Prelude Cards, each featuring an initiative number. The **initiative** of a player is the lowest initiative number among their cards. A player is said to **have initiative** over another when their initiative is lower. Doing something in **initiative order** means the player with initiative does it first, then the player the second-lowest initiative, etc.
 
 ### Claims
 Most Prelude Cards contain a **Claim**. Players use these to expand their territory during the prelude. For each Claim, they will choose a planet or system to target with it, and will assign units to it. There are different types of claims.
 
 **Types of Claims**
 - Planet Claim: target a single planet. Only ground units, PDS and Space Docks can be assigned to that claim.
-- System Claim: target an entire system. Any units can be assigned to that claim. Ground units, PDS and Space Docks have to be assigned to a specific planet of that system.
+- System Claim: target an entire system. Any units can be assigned to that claim, but if ground units, PDS or a Space Dock are assigned, at least one non-Fighter ship must also be assigned.
 
 Additionally, each Claim has an indicated range.
 
