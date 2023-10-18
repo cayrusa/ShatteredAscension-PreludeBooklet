@@ -18,15 +18,11 @@
 
 - A deck of 60ish **Prelude Cards**, each containing a list of **Perks** and displaying an **initiative number**.
 - 18 special **Racial Prelude Cards**, one for each playable race
+- 8 identical **Basic Prelude Cards**, one for each potential player, each featuring as perk: "Range 1 system claim, increase that range value by 1 for each of these technologies your race starts with: Ion Drive, XRD Transporters, Stasis Capsules. 1 Trade Good. 1 Action Card."
 
 <p class="aligncenter">
 	<img src="./Images/PreludeTestCard.jpg" height="300"/>
 </p>
-
-<details>
-	<summary>TODO</summary>
-And 8 **Base Prelude Card**, each containing ...
-</details>
 
 ## General Rules and Definitions
 - The complete process described in this variant is referred to as **the prelude** in this booklet.
