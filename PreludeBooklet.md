@@ -10,7 +10,13 @@
 
 - [Components](#components)
 - [General Rules and Definitions](#general-rules-and-definitions)
+	- [Claims](#claims)
 - [Process](#process)
+	- [Game Setup](#game-setup)
+	- [Phase 1: Prelude Cards Selection](#phase-1-prelude-cards-selection)
+	- [Phase 2: Quick Reaction Force](#phase-2-quick-reaction-force)
+	- [Phase 3: Claims](#phase-3-claims)
+	- [Phase 4: Finalisation](#phase-4-finalisation)
 
 -----
 
