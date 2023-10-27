@@ -83,7 +83,8 @@ If a system/planet contains ships/units of more than 2 players, the player with 
 ### Phase 4: Finalisation
 1. **Speaker Bidding**. Perform the normal Speaker Bidding step, with the difference that players bid with their actual Trade Goods, and the winner simply pays their bids instead of everyone else gaining Trade Goods.
 2. **Assembly**. Conduct an Assembly. Players have as many votes as double the influence value of their Home System. Voice of the Council can be called.
-3. **Trade**. Players with Perks relative to opening Trade Agreements can use them to open Trade Agreements between willing players. They can open Trade Agreements they are not a part of.
+3. **Trade**. Players with Perks relative to opening Trade Agreements can use them to open Trade Agreements between willing players. They can open Trade Agreements they are not a part of. After this, place the indicated number of Trade Goods on all active Trade Agreements.
+4. **Prelude Cards Perks**. Players receive all the remaining Perks from their Prelude Cards, like Trade Goods, Technologies, etc...
 4. **Victory Points**. Every player gains 2 Victory Points.
 5. **Racial Upgrade**. Conduct the "Unlock Racial Upgrades" step of the Status Phase. Players can only use their Trade Goods to pay.
 6. **Command Counters**. Players can redistribute the Command Counters on their race sheet.
