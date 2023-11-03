@@ -1469,7 +1469,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .highlight .il{color:#009999}
 .highlight .gc{color:#999;background-color:#EAF2F5}
 </style><title>PreludeBooklet</title></head><body><article class="markdown-body"><h1 id="the-prelude-variant">The Prelude Variant<a class="headerlink" href="#the-prelude-variant" title="Permanent link"></a></h1>
-<p><em>Draft version</em><br />
+<p><em>Draft version 4</em><br />
 <strong><em>By Cyrusa and Cue</em></strong>  </p>
 <blockquote>
 <p>Prelude is a variant for Twilight Imperium:Shattered Ascension, that aims to replace the usual first 2 rounds of territorial claims and expansions with a higher level setup process, in order to reach the midgame (roughly round 3) quicker and with interesting board configurations.</p>
@@ -1491,6 +1491,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 <li><a href="#phase-4-finalisation">Phase 4: Finalisation</a></li>
 </ul>
 </li>
+<li><a href="#changelog">Changelog</a>   </li>
 </ul>
 <hr />
 <h2 id="components">Components<a class="headerlink" href="#components" title="Permanent link"></a></h2>
@@ -1510,34 +1511,51 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 <li><strong>Technologies</strong> have no effect during the prelude, except during combats. When a Prelude Card lets a player choose a Technology to gain, pre-requisites apply.</li>
 <li><strong>Racial Abilies</strong> have no effect during the prelude, except combat-related ones.</li>
 <li><strong>Retreats</strong> are not possible during the prelude.</li>
-<li><strong>Initiative</strong> defines an ordering of the player. The Speaker has an initiative of 1, the next player (following the Rotation Cycler) has 2, etc. When there is a timing conflict regarding the use of an ability, the player with lowest initiative goes first.</li>
+<li><strong>Initiative</strong> defines an ordering of the player. The Speaker has an initiative of 1, the next player (following the Rotation Cycler) has 2, etc. When there is a timing conflict between two effects or decisions, the player with lowest initiative goes first.</li>
 </ul>
 <h3 id="claims">Claims<a class="headerlink" href="#claims" title="Permanent link"></a></h3>
-<p>Most Prelude Cards contain a <strong>Claim</strong>. Players use these to expand their territory during the prelude. For each Claim, they will choose a planet or system to target with it, and will assign units to it. There are different types of claims.</p>
+<p>Most Prelude Cards contain a <strong>Claim</strong>. Players use these to expand their territory during the prelude. For each Claim, they will choose a planet or system to target with it, and will assign units to it. Each Claim has a type and a range, the possibilities are listed below, as well as additional restrictions as to the target of Claims.</p>
 <p><strong>Types of Claims</strong>  </p>
 <ul>
-<li>Planet Claim: target a single planet. Only ground units, PDS and Space Docks can be assigned to that claim.</li>
-<li>System Claim: target an entire system. Any units can be assigned to that claim, but if ground units, PDS or a Space Dock are assigned, at least one non-Fighter ship must also be assigned.</li>
+<li><strong>Planet Claim</strong><br />
+Target a single planet. Only ground units, PDS and Space Docks can be assigned to that claim.</li>
+<li><strong>System Claim</strong><br />
+Target an entire system. Any units can be assigned to that claim, but if ground units, PDS or a Space Dock are assigned, at least one non-Fighter ship must also be assigned.</li>
 </ul>
-<p>Additionally, each Claim has an indicated range.</p>
 <p><strong>Range of a Claim</strong></p>
 <ul>
-<li>&ldquo;Range 2&rdquo;: the target of that claim must be 2 spaces away or less from the player&rsquo;s Home System. For this purpose, Supernova and Collapsed Space-Time completely block the range calculation, and flippable wormholes are treated as having both wormholes active.</li>
-<li>&ldquo;Adjacent&rdquo;: the target of that claim must be adjacent to the player&rsquo;s Home System, or to a system/planet that is the target of one of their other claims.</li>
-<li>Other: some claims have more specific ranges, or none at all.</li>
+<li><strong>Range <em>N</em></strong><br />
+The target of that Claim must be <em>N</em> spaces away or less from the player&rsquo;s Home System.</li>
+<li><strong>Adjacent</strong><br />
+The target of that Claim must be adjacent to the player&rsquo;s Home System, or to a system/planet that is the target of one of their other Claims.</li>
+<li><strong>Other</strong><br />
+Some Claims have more specific ranges, or no range restriction at all.</li>
 </ul>
-<p>Some Claims have additional specifications as to what they can target, like requiring a specific colour of Technology Specialty to be present.</p>
-<p><strong>Restrictions</strong></p>
-<p>Players cannot target with their claims:
-- Home Systems (including theirs)
-- Planets or Systems adjacent to enemy Home Systems, unless there is a Collapsed Space-Time between the two.</p>
+<p><strong>Additional rules regarding Claims</strong></p>
+<ul>
+<li><strong>Impassable Systems</strong><br />
+Claims may not target Asteroid Fields or Supernovae.</li>
+<li><strong>Obstacles</strong><br />
+When computing the range of a Claim, <strong>Supernovae</strong> and <strong>Collapsed Space-Time</strong> block the range. <strong>Asteroid Fields/Belts</strong> also block the range for races which do not start with the Antimass Deflectors Technology</li>
+<li><strong>Flippable Wormholes</strong>
+When computing the range of a Claim, treat flippable Wormholes as having both sides active.</li>
+<li><strong>Sovereign Space</strong><br />
+Claims may not target systems adjacent to enemy Home System, unless there is a Collapsed Space-Time between the two systems.</li>
+<li><strong>No Home Systems</strong><br />
+Players may not target Claims at Home Systems, even their own.</li>
+<li><strong>One Claim per System (per Player)</strong><br />
+Players may not have two Claims in the same System.</li>
+</ul>
+<blockquote>
+<p>TODO: show a picture with examples of range calculation.</p>
+</blockquote>
 <h3 id="leaders">Leaders<a class="headerlink" href="#leaders" title="Permanent link"></a></h3>
-<p>Leaders can also be assigned to Claims. They have their usual abilities, except Diplomats.
-For the prelude, the abilities of Diplomats are replaced with:</p>
+<p>Leaders can also be assigned to Claims. They have their usual abilities, except Diplomats (see below). Fate Rolls during the Prelude happen at the end of Phase 3.</p>
+<p>For the prelude, the abilities of Diplomats are replaced with:</p>
 <p><strong>Diplomatic Immunity</strong><br />
-If a Diplomat participates in an Invasion Combat, the opponent will have to lose control of a planet at the end of the prelude (they may move their units from that planet to their Home System instead of destroying them).</p>
+<em>If a Diplomat participates in an Invasion Combat, the opponent will have to lose control of a planet at the end of Phase 3 (they move their units/Leaders from that planet to their Home System beforehand).</em></p>
 <p><strong>Claim Negociation</strong><br />
-After Claims are revealed, if a player has a Claim in a system containing an enemy Diplomat, they may instead change the target of that Claim to an adjacent system containing no Claims. They must respect the type of the Claim (planet/system), but ignore its other restrictions (like a specific technology specialty).</p>
+<em>After Claims are revealed, if a player has a Claim in a system containing an enemy Diplomat, they may instead change the target of that Claim to an adjacent system containing no Claims. They must respect the type of the Claim (planet/system), but ignore its other restrictions (like a specific technology specialty).</em></p>
 <h2 id="process">Process<a class="headerlink" href="#process" title="Permanent link"></a></h2>
 <h3 id="game-setup">Game Setup<a class="headerlink" href="#game-setup" title="Permanent link"></a></h3>
 <p>Follow the normal Shattered Ascension setup procedure.</p>
@@ -1558,30 +1576,61 @@ After Claims are revealed, if a player has a Claim in a system containing an ene
 <li><strong>Assignments</strong>. In secret, players assign units from their Quick Reaction Force to their Prelude Cards with Claims, and choose which system/planets these Claims target. Unassigned units are considered as assigned to their Home System. Some Prelude Cards grant units, add them as assigned to the claim of that card.</li>
 <li><strong>Claim Reveal</strong>. All Prelude Cards, along with their target and assigned units are revealed. Units assigned to planet claims are placed on these planets, while units assigned to a system claim are placed in space for the time being</li>
 <li><strong>PvP Space Battles</strong>. Resolve Space Battles in each system containing ships of 2 or more players, until no two players have ships in the same system. In initiative order, each player resolves all their Space Battles with the next player in initiative order, then with the following player in initiative order, etc&hellip; If a player has multiple Space Battle with another player, they decide the order. If a player loses all their ships in a system, all the ground units, PDS and Space Docks they also assigned to that system are destroyed.</li>
-<li><strong>Space Domain Counters</strong>. Resolve every space Domain Counter where a player&rsquo;s ship are present.</li>
+<li><strong>Space Domain Counters</strong>. Players resolve space Domain Counters where they have ships. They then resolve space Artifacts where they have ships. Artifact objectives are claimed instantly and provide Victory Points immediately.</li>
 <li><strong>Ground Assignment</strong>. In initiative order, players with ground units, PDS or Space Dock assigned to a system may assign them to specific planets of that system. These units that did not get assigned to a planet must be placed on ships in the system with adequate capacity, or be destroyed. Saar Space Docks are not assigned to planets and stay in space.</li>
 <li><strong>PvP Invasion Combats</strong>. Resolve Invasion Combats on each planet containing units of 2 or more players, until no two players have units on the same planet. In initiative order, each player resolves all their Invasion Combats with the next player in initiative order, then with the following player in initiative order, etc&hellip; If a player has multiple Invasion Combats with another player, they decide the order.</li>
-<li><strong>Ground Domain Counters</strong>. If a planet contains Domain Counters and a player&rsquo;s units, resolve them.</li>
+<li><strong>Ground Domain Counters</strong>. Players resolve ground Domain Counters on planets they have units on. They then resolve ground Artifacts on planets they have units on. Artifact objectives are claimed instantly and provide Victory Points immediately.</li>
+<li><strong>Maneuver</strong>. Each player gets to do one Maneuver. It consists in choosing a system and moving any number of their ships from adjacent systems to that system (pick-up is allowed, but not landing. Fighters can move independantly for that purpose). Each player decides their Maneuver in secret. They are then revealed and carried out simultaneously. Finally, resolve Space Battles in systems containing ships of multiple players, in the same way as the <em>PvP Space Battles</em> step. Maneuvers may not happen in a system adjacent to an enemy Home System, unless there is a Collapsed Space-Time between the two systems.</li>
 <li><strong>Planet Cards</strong>. Players take the planet cards of the planets they now control (refreshed).</li>
 </ol>
 <p><strong>Combat abilities and effects</strong>.<br />
 Mentak&rsquo;s pre-combat shots, Yin&rsquo;s suicide run and conversion roll, Xxcha inflicting -1 to enemy combat rolls, PDS in Invasion Combat, Bombardment&hellip; All these combat abilities and effect work in all combats.</p>
-<details>
-    <summary>TODO</summary>
-Provide an example of what this phase looks like for a player.
-</details>
-
+<p><strong>Fighter Capacity</strong>.<br />
+Fighter capacity is not checked during the prelude. However, it starts being checked again as soon as the prelude is over.</p>
+<blockquote>
+<p>TODO: Show an example of what a completed assignment step might look like for a player.</p>
+</blockquote>
 <h3 id="phase-4-finalisation">Phase 4: Finalisation<a class="headerlink" href="#phase-4-finalisation" title="Permanent link"></a></h3>
 <ol>
-<li><strong>Speaker Bidding</strong>. Perform the normal Speaker Bidding step, with the difference that players bid with their actual Trade Goods, and the winner simply pays their bids instead of everyone else gaining Trade Goods.</li>
-<li><strong>Assembly</strong>. Conduct an Assembly. Players have as many votes as double the influence value of their Home System. Voice of the Council can be called. For the purpose of resolving the agendas, this assembly is considered as taking place in the first round of the game (the one that will start after the prelude is done).</li>
-<li><strong>Trade</strong>. Players with Perks relative to opening Trade Agreements can use them to open Trade Agreements between willing players. They can open Trade Agreements they are not a part of. After this, place the indicated number of Trade Goods on all active Trade Agreements. Players do not need a Trade Agreement Perk to self-trade.</li>
-<li><strong>Prelude Cards Perks</strong>. Players receive all the remaining Perks from their Prelude Cards, like Trade Goods, Technologies, etc&hellip;</li>
+<li><strong>Prelude Cards Perks</strong>. Players receive all the Perks from their Prelude Cards, like Trade Goods, Technologies, etc&hellip;</li>
+<li><strong>Trade</strong>. Players with Perks relative to opening Trade Agreements can use them to open Trade Agreements between willing players. They can open Trade Agreements they are not a part of. Players do not need a Trade Agreement Perk to self-trade. After this, place the indicated number of Trade Goods on all active Trade Agreements. </li>
+<li><strong>Assembly</strong>. Players with Perks to affect the agendas may use them in initiative order, then conduct an Assembly where players have as many votes as the influence value of their Home System (to a minimum of 1), plus bonus votes from the Perks of their prelude Cards. Voice of the Council may not be called. For the purpose of resolving the agendas, this assembly is considered as taking place in the first round of the game (the one that will start after the prelude is done).</li>
 <li><strong>Victory Points</strong>. Every player gains 2 Victory Points.</li>
 <li><strong>Racial Upgrade</strong>. Conduct the &ldquo;Unlock Racial Upgrades&rdquo; step of the Status Phase. Players can only use their Trade Goods to pay.</li>
 <li><strong>Command Counters</strong>. Players can redistribute the Command Counters on their race sheet.</li>
+<li><strong>Repair</strong>. All units are repaired.</li>
+<li><strong>Start the game</strong>. The prelude is over. Note that the rule saying player may not activate enemy Home Systems during the the first round of the game does not apply when using the prelude variant.</li>
 </ol>
 <!-- <details>
     <summary>TODO</summary>
 Something important missing?
-</details> --></article></body></html>
+</details> -->
+
+<hr />
+<h2 id="changelog">Changelog<a class="headerlink" href="#changelog" title="Permanent link"></a></h2>
+<h3 id="v3-v4">v3 -&gt; v4<a class="headerlink" href="#v3-v4" title="Permanent link"></a></h3>
+<ul>
+<li>Phase 3:<ul>
+<li>Added the Maneuver step to Phase 3</li>
+<li>Leader Fate Rolls happen at the end of Phase 3</li>
+<li>Added Artifact resolutions to step Space Domain Counter and Ground Domain Counters of step 3, with the precision that corresponding objectives are claimed immediately</li>
+</ul>
+</li>
+<li>Phase 4:<ul>
+<li>Trade step moved to happen before Assembly step</li>
+<li>Removed Speaker bidding step (wrongly left over from last set of changes)</li>
+<li>Moved Prelude Cards Perks step to be the first step of Phase 4, as that&rsquo;s when players will clear the board of their prelude cards, so it feels natural to have it there</li>
+<li>Added a repair step</li>
+<li>Assembly: More details as to how the Assembly step proceeds. Votes are now HS influence (minimum 1) + bonus votes from Perks. Voice of the Council may not be called</li>
+<li>Added a step &ldquo;start the game&rdquo;, with the note that the SA rule saying players may not activate enemy HS round 1 does not apply if the prelude variant is used</li>
+</ul>
+</li>
+<li>Diplomat Abilities:<ul>
+<li>Moved the timing of the planet loss from Diplomatic Immunity to the end of Phase 3 (was end of the prelude)</li>
+<li>Players suffering the planet loss have to move their units/leaders from that planet to their Home System. If it&rsquo;s optional, they could leave their Leader behind to have it Fate Roll and maybe teleport to another location.</li>
+</ul>
+</li>
+<li>Players may not have multiple Claims in the same System</li>
+<li>Fighter capacity is not checked during the prelude</li>
+<li>Rewrote the Range and Additional Rules parts of the Claim section</li>
+</ul></article></body></html>
