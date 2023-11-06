@@ -26,7 +26,7 @@
 
 - A deck of 60ish **Prelude Cards**, each containing a list of **Perks**.
 - 18 special **Racial Prelude Cards**, one for each playable race
-- 8 identical **Basic Prelude Cards**, one for each potential player, each featuring as perk: "Range 1 system claim, increase that range value by 1 for each of these technologies your race starts with: Ion Drive, XRD Transporters, Stasis Capsules. 2 Trade Goods. 1 Action Card."
+- 8 identical **"Opening Move" Prelude Cards**, one for each potential player, each featuring as perk: "Range 1 system claim, increase that range value by 1 for each of these technologies your race starts with: Ion Drive, XRD Transporters, Stasis Capsules. 2 Trade Goods. 1 Action Card."
 
 <p class="aligncenter">
 	<img src="./Images/PreludeTestCard.jpg" height="300"/>
@@ -96,7 +96,7 @@ Follow the normal Shattered Ascension setup procedure.
 ### Phase 1: Prelude Cards Selection
 
 1. **Agendas**. Reveal the top 5 Political Cards from the deck. They will be voted on in Phase 4
-2. **Pre-set Prelude Cards**. Player get their race-specific Prelude Card, and a Basic Prelude Card
+2. **Pre-set Prelude Cards**. Player get their race-specific Prelude Card, and an "Opening Move" Prelude Card
 3. **Draw and select Prelude Cards**. Players draw **7** Prelude Cards, and discard **3** of them face-down
 
 ### Phase 2: Quick Reaction Force
