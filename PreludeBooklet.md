@@ -95,7 +95,7 @@ Follow the normal Shattered Ascension setup procedure.
 
 ### Phase 1: Prelude Cards Selection
 
-1. **Agendas**. Reveal the top 3 Political Cards from the deck. They will be voted on in Phase 4
+1. **Agendas**. Reveal the top 5 Political Cards from the deck. They will be voted on in Phase 4
 2. **Pre-set Prelude Cards**. Player get their race-specific Prelude Card, and a Basic Prelude Card
 3. **Draw and select Prelude Cards**. Players draw **7** Prelude Cards, and discard **3** of them face-down
 
