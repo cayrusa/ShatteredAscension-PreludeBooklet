@@ -1,5 +1,5 @@
 # The Prelude Variant
-*Draft version 4*  
+*Draft version 5*  
 ***By Cyrusa and Cue***  
 
 > Prelude is a variant for Twilight Imperium:Shattered Ascension, that aims to replace the usual first 2 rounds of territorial claims and expansions with a higher level setup process, in order to reach the midgame (roughly round 3) quicker and with interesting board configurations.
@@ -33,12 +33,15 @@
 </p>
 
 ## General Rules and Definitions
-- The complete process described in this variant is referred to as **the prelude** in this booklet.
-- Each player has a **Quick Reaction Force** (**QRF** for short) area to store the units they will then send on claims. These areas are private.
+- **Prelude**. The complete process described in this variant is referred to as **the prelude** in this booklet.
+- **QRF/Quick Reaction Force**. Each player has a Quick Reaction Force (QRF for short) area to store the units they will then send on claims. These areas are private.
 - **Technologies** have no effect during the prelude, except during combats. When a Prelude Card lets a player choose a Technology to gain, pre-requisites apply.
 - **Racial Abilies** have no effect during the prelude, except combat-related ones.
 - **Retreats** are not possible during the prelude.
 - **Initiative** defines an ordering of the player. The Speaker has an initiative of 1, the next player (following the Rotation Cycler) has 2, etc. When there is a timing conflict between two effects or decisions, the player with lowest initiative goes first.
+- **Fighter Capacity** is not checked during the prelude. It starts being checked again when the prelude is over.
+- **Fleet Supply** is not checked during the prelude. It starts being checked again when the prelude is over.
+- **Action Cards** cannot be played during the prelude.
 
 
 ### Claims
@@ -47,7 +50,7 @@ Most Prelude Cards contain a **Claim**. Players use these to expand their territ
 **Types of Claims**  
 
 - **Planet Claim**  
-Target a single planet. Only ground units, PDS and Space Docks can be assigned to that claim.
+Target a single planet (not a Trade Station). Only ground units, PDS and Space Docks can be assigned to that claim. 
 - **System Claim**  
 Target an entire system. Any units can be assigned to that claim, but if ground units, PDS or a Space Dock are assigned, at least one non-Fighter ship must also be assigned.
 
@@ -120,9 +123,6 @@ Follow the normal Shattered Ascension setup procedure.
 **Combat abilities and effects**.  
 Mentak's pre-combat shots, Yin's suicide run and conversion roll, Xxcha inflicting -1 to enemy combat rolls, PDS in Invasion Combat, Bombardment... All these combat abilities and effect work in all combats.
 
-**Fighter Capacity**.  
-Fighter capacity is not checked during the prelude. However, it starts being checked again as soon as the prelude is over.
-
 > TODO: Show an example of what a completed assignment step might look like for a player.
 
 ### Phase 4: Finalisation
@@ -133,7 +133,7 @@ Fighter capacity is not checked during the prelude. However, it starts being che
 5. **Racial Upgrade**. Conduct the "Unlock Racial Upgrades" step of the Status Phase. Players can only use their Trade Goods to pay.
 6. **Command Counters**. Players can redistribute the Command Counters on their race sheet.
 7. **Repair**. All units are repaired.
-8. **Start the game**. The prelude is over. Note that the rule saying player may not activate enemy Home Systems during the the first round of the game does not apply when using the prelude variant.
+8. **Start the game**. The prelude is over. Note that the rule saying player may not activate enemy Home Systems during the first round of the game does apply. Even if prelude roughly simulated the first two rounds, this will still technically be the first round of the game.
 
 <!-- <details>
 	<summary>TODO</summary>
@@ -142,6 +142,11 @@ Something important missing?
 
 -----
 ## Changelog
+### v4 - v5
+- Fleet Supply is not checked during Prelude
+- Action Cards cannot be played during the prelude
+- Planet claims canot target Trade Stations
+- Made explicit that the rule about not being allowed to activate enemy HS round 1 does apply
 ### v3 -> v4
 - Phase 3:
 	- Added the Maneuver step to Phase 3
