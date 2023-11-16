@@ -1469,7 +1469,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .highlight .il{color:#009999}
 .highlight .gc{color:#999;background-color:#EAF2F5}
 </style><title>PreludeBooklet</title></head><body><article class="markdown-body"><h1 id="the-prelude-variant">The Prelude Variant<a class="headerlink" href="#the-prelude-variant" title="Permanent link"></a></h1>
-<p><em>Draft version 4</em><br />
+<p><em>Draft version 5</em><br />
 <strong><em>By Cyrusa and Cue</em></strong>  </p>
 <blockquote>
 <p>Prelude is a variant for Twilight Imperium:Shattered Ascension, that aims to replace the usual first 2 rounds of territorial claims and expansions with a higher level setup process, in order to reach the midgame (roughly round 3) quicker and with interesting board configurations.</p>
@@ -1485,9 +1485,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 </li>
 <li><a href="#process">Process</a><ul>
 <li><a href="#game-setup">Game Setup</a></li>
-<li><a href="#phase-1-prelude-cards-selection">Phase 1: Prelude Cards Selection</a></li>
-<li><a href="#phase-2-quick-reaction-force">Phase 2: Quick Reaction Force</a></li>
-<li><a href="#phase-3-claims">Phase 3: Claims</a></li>
+<li><a href="#phase-1-initialisation">Phase 1: Initialisation</a></li>
+<li><a href="#phase-2-planning">Phase 2: Planning</a></li>
+<li><a href="#phase-3-tactical">Phase 3: Tactical</a></li>
 <li><a href="#phase-4-finalisation">Phase 4: Finalisation</a></li>
 </ul>
 </li>
@@ -1506,19 +1506,21 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 <h2 id="general-rules-and-definitions">General Rules and Definitions<a class="headerlink" href="#general-rules-and-definitions" title="Permanent link"></a></h2>
 <ul>
-<li>The complete process described in this variant is referred to as <strong>the prelude</strong> in this booklet.</li>
-<li>Each player has a <strong>Quick Reaction Force</strong> (<strong>QRF</strong> for short) area to store the units they will then send on claims. These areas are private.</li>
-<li><strong>Technologies</strong> have no effect during the prelude, except during combats. When a Prelude Card lets a player choose a Technology to gain, pre-requisites apply.</li>
+<li><strong>Prelude</strong>. The complete process described in this variant is referred to as <strong>the prelude</strong> in this booklet.</li>
+<li><strong>QRF/Quick Reaction Force</strong>. Each player has a Quick Reaction Force (QRF for short) area to store the units they will then send on claims. These areas are private.</li>
+<li><strong>Technologies</strong> all work, <em>except yellow technologies and Xenopsychology</em>. Technologies acquired during the prelude have no effect during the prelude. When a Prelude Card lets a player choose a Technology to gain, pre-requisites apply.</li>
 <li><strong>Racial Abilies</strong> have no effect during the prelude, except combat-related ones.</li>
-<li><strong>Retreats</strong> are not possible during the prelude.</li>
 <li><strong>Initiative</strong> defines an ordering of the player. The Speaker has an initiative of 1, the next player (following the Rotation Cycler) has 2, etc. When there is a timing conflict between two effects or decisions, the player with lowest initiative goes first.</li>
+<li><strong>Fighter Capacity</strong> is not checked during the prelude. It starts being checked again when the prelude is over.</li>
+<li><strong>Fleet Supply</strong> is not checked during the prelude. It starts being checked again when the prelude is over.</li>
+<li><strong>Action Cards</strong> cannot be played during the prelude.</li>
 </ul>
 <h3 id="claims">Claims<a class="headerlink" href="#claims" title="Permanent link"></a></h3>
 <p>Most Prelude Cards contain a <strong>Claim</strong>. Players use these to expand their territory during the prelude. For each Claim, they will choose a planet or system to target with it, and will assign units to it. Each Claim has a type and a range, the possibilities are listed below, as well as additional restrictions as to the target of Claims.</p>
 <p><strong>Types of Claims</strong>  </p>
 <ul>
 <li><strong>Planet Claim</strong><br />
-Target a single planet. Only ground units, PDS and Space Docks can be assigned to that claim.</li>
+Target a single planet (not a Trade Station). Only ground units, PDS and Space Docks can be assigned to that claim. </li>
 <li><strong>System Claim</strong><br />
 Target an entire system. Any units can be assigned to that claim, but if ground units, PDS or a Space Dock are assigned, at least one non-Fighter ship must also be assigned.</li>
 </ul>
@@ -1552,29 +1554,43 @@ Players may not have two Claims in the same System.</li>
 <h3 id="leaders">Leaders<a class="headerlink" href="#leaders" title="Permanent link"></a></h3>
 <p>Leaders can also be assigned to Claims. They have their usual abilities, except Diplomats (see below). Fate Rolls during the Prelude happen at the end of Phase 3.</p>
 <p>For the prelude, the abilities of Diplomats are replaced with:</p>
-<p><strong>Diplomatic Immunity</strong><br />
-<em>If a Diplomat participates in an Invasion Combat, the opponent will have to lose control of a planet at the end of Phase 3 (they move their units/Leaders from that planet to their Home System beforehand).</em></p>
-<p><strong>Claim Negociation</strong><br />
-<em>After Claims are revealed, if a player has a Claim in a system containing an enemy Diplomat, they may instead change the target of that Claim to an adjacent system containing no Claims. They must respect the type of the Claim (planet/system), but ignore its other restrictions (like a specific technology specialty).</em></p>
+<p><strong>Annexation Treaty</strong><br />
+<em>At the end of Phase 3, Diplomats may use the Secondary Ability of the Diplomacy Strategy Card for free, in their system or an adjacent one. Refresh planets acquired this way.</em></p>
+<p><strong>Ceasefire +</strong><br />
+<em>A Diplomat may let players retreat before Space Battle/Invasion Combats in their system.</em></p>
+<!-- **Diplomatic Immunity**  
+*If a Diplomat participates in an Invasion Combat, the opponent will have to lose control of a planet at the end of Phase 3 (they move their units/Leaders from that planet to their Home System beforehand).*
+
+**Claim Negociation**  
+*After Claims are revealed, if a player has a Claim in a system containing an enemy Diplomat, they may instead change the target of that Claim to an adjacent system containing no Claims. They must respect the type of the Claim (planet/system), but ignore its other restrictions (like a specific technology specialty).* -->
+
 <h2 id="process">Process<a class="headerlink" href="#process" title="Permanent link"></a></h2>
 <h3 id="game-setup">Game Setup<a class="headerlink" href="#game-setup" title="Permanent link"></a></h3>
 <p>Follow the normal Shattered Ascension setup procedure.</p>
-<h3 id="phase-1-prelude-cards-selection">Phase 1: Prelude Cards Selection<a class="headerlink" href="#phase-1-prelude-cards-selection" title="Permanent link"></a></h3>
+<h3 id="phase-1-initialisation">Phase 1: Initialisation<a class="headerlink" href="#phase-1-initialisation" title="Permanent link"></a></h3>
 <ol>
 <li><strong>Agendas</strong>. Reveal the top 5 Political Cards from the deck. They will be voted on in Phase 4</li>
 <li><strong>Pre-set Prelude Cards</strong>. Player get their race-specific Prelude Card, and an &ldquo;Opening Move&rdquo; Prelude Card</li>
-<li><strong>Draw and select Prelude Cards</strong>. Players draw <strong>7</strong> Prelude Cards, and discard <strong>3</strong> of them face-down</li>
-</ol>
-<h3 id="phase-2-quick-reaction-force">Phase 2: Quick Reaction Force<a class="headerlink" href="#phase-2-quick-reaction-force" title="Permanent link"></a></h3>
-<ol>
 <li><strong>Starting Units</strong>. Players place their starting Space Dock in their Home System. The rest of their starting units and Leaders goes to their Quick Reaction Force.</li>
-<li><strong>Production</strong>. In secret, players produce units at their starting Space Dock, respecting its production capacity and using the resource value of their Home System for payment. They place these units in their Quick Reaction Force.</li>
-<li><strong>Additional Units</strong>. If they hold Prelude Cards granting QRF units, they add them to their Quick Reaction Force.</li>
 </ol>
-<h3 id="phase-3-claims">Phase 3: Claims<a class="headerlink" href="#phase-3-claims" title="Permanent link"></a></h3>
+<h3 id="phase-2-planning">Phase 2: Planning<a class="headerlink" href="#phase-2-planning" title="Permanent link"></a></h3>
+<p><strong>No Negociations Allowed.</strong>
+During this phase, players are not allowed to discuss or negotiate with each others.</p>
 <ol>
-<li><strong>Assignments</strong>. In secret, players assign units from their Quick Reaction Force to their Prelude Cards with Claims, and choose which system/planets these Claims target. Unassigned units are considered as assigned to their Home System. Some Prelude Cards grant units, add them as assigned to the claim of that card.</li>
-<li><strong>Claim Reveal</strong>. All Prelude Cards, along with their target and assigned units are revealed. Units assigned to planet claims are placed on these planets, while units assigned to a system claim are placed in space for the time being</li>
+<li><strong>Draw and select Prelude Cards</strong>. Players draw <strong>7</strong> Prelude Cards, and discard <strong>3</strong> of them face-down</li>
+<li><strong>Production</strong>. In secret, players produce units at their starting Space Dock, respecting its production capacity and <em>only</em> using the resource value of their Home System for payment. They place these units in their Quick Reaction Force.</li>
+<li><strong>Additional Units</strong>. If they hold Prelude Cards granting QRF units, they add them to their Quick Reaction Force.</li>
+<li><strong>Claims</strong>. In secret, players assign units from their Quick Reaction Force to their Prelude Cards with Claims, and choose which system/planets these Claims target. Unassigned units are considered as assigned to their Home System. Some Prelude Cards grant units, add them as assigned to the claim of that card.</li>
+<li><strong>Claim Reveal</strong>. Reveal all Prelude Cards, along with their target and assigned units. Place units assigned to planet claims on these planets. Place units assigned to system claims in the space area of these systems.</li>
+</ol>
+<p><strong>Carrying</strong>.<br />
+Units do not need to be carried during the prelude. It is for example allowed to assign a Destroyer, 2 Fighters and 2 Ground Forces to a system claim.</p>
+<h3 id="phase-3-tactical">Phase 3: Tactical<a class="headerlink" href="#phase-3-tactical" title="Permanent link"></a></h3>
+<p><strong>Combat abilities and effects</strong>.<br />
+Mentak&rsquo;s pre-combat shots, Yin&rsquo;s suicide run and conversion roll, Xxcha inflicting -1 to enemy combat rolls, PDS in Invasion Combat, Bombardment&hellip; All these combat abilities and effects work in all combats. &ldquo;Once per round&rdquo; effects can only be used once during the prelude.</p>
+<p><strong>Retreats</strong>.<br />
+During the prelude, units/leaders always retreat to their Home System, regardless of their position. Retreats are free and do not activate the Home System. In addition, retreats are also allowed during Invasion Combat, at the end of combat rounds. Timing-wise, the player with lowest initiative decides first whether they retreat.</p>
+<ol>
 <li><strong>PvP Space Battles</strong>. Resolve Space Battles in each system containing ships of 2 or more players, until no two players have ships in the same system. In initiative order, each player resolves all their Space Battles with the next player in initiative order, then with the following player in initiative order, etc&hellip; If a player has multiple Space Battle with another player, they decide the order. If a player loses all their ships in a system, all the ground units, PDS and Space Docks they also assigned to that system are destroyed.</li>
 <li><strong>Space Domain Counters</strong>. Players resolve space Domain Counters where they have ships. They then resolve space Artifacts where they have ships. Artifact objectives are claimed instantly and provide Victory Points immediately.</li>
 <li><strong>Ground Assignment</strong>. In initiative order, players with ground units, PDS or Space Dock assigned to a system may assign them to specific planets of that system. These units that did not get assigned to a planet must be placed on ships in the system with adequate capacity, or be destroyed. Saar Space Docks are not assigned to planets and stay in space.</li>
@@ -1583,10 +1599,6 @@ Players may not have two Claims in the same System.</li>
 <li><strong>Maneuver</strong>. Each player gets to do one Maneuver. It consists in choosing a system and moving any number of their ships from adjacent systems to that system (pick-up is allowed, but not landing. Fighters can move independantly for that purpose). Each player decides their Maneuver in secret. They are then revealed and carried out simultaneously. Finally, resolve Space Battles in systems containing ships of multiple players, in the same way as the <em>PvP Space Battles</em> step. Maneuvers may not happen in a system adjacent to an enemy Home System, unless there is a Collapsed Space-Time between the two systems.</li>
 <li><strong>Planet Cards</strong>. Players take the planet cards of the planets they now control (refreshed).</li>
 </ol>
-<p><strong>Combat abilities and effects</strong>.<br />
-Mentak&rsquo;s pre-combat shots, Yin&rsquo;s suicide run and conversion roll, Xxcha inflicting -1 to enemy combat rolls, PDS in Invasion Combat, Bombardment&hellip; All these combat abilities and effect work in all combats.</p>
-<p><strong>Fighter Capacity</strong>.<br />
-Fighter capacity is not checked during the prelude. However, it starts being checked again as soon as the prelude is over.</p>
 <blockquote>
 <p>TODO: Show an example of what a completed assignment step might look like for a player.</p>
 </blockquote>
@@ -1599,8 +1611,10 @@ Fighter capacity is not checked during the prelude. However, it starts being che
 <li><strong>Racial Upgrade</strong>. Conduct the &ldquo;Unlock Racial Upgrades&rdquo; step of the Status Phase. Players can only use their Trade Goods to pay.</li>
 <li><strong>Command Counters</strong>. Players can redistribute the Command Counters on their race sheet.</li>
 <li><strong>Repair</strong>. All units are repaired.</li>
-<li><strong>Start the game</strong>. The prelude is over. Note that the rule saying player may not activate enemy Home Systems during the the first round of the game does not apply when using the prelude variant.</li>
+<li><strong>Start the game</strong>. The prelude is over.</li>
 </ol>
+<p><strong>Players may not activate enemy Home System during the first round</strong><br />
+Even if prelude roughly simulated the first two rounds, this will still technically be the first round of the game, so this standard rule does apply.</p>
 <!-- <details>
     <summary>TODO</summary>
 Something important missing?
@@ -1608,6 +1622,20 @@ Something important missing?
 
 <hr />
 <h2 id="changelog">Changelog<a class="headerlink" href="#changelog" title="Permanent link"></a></h2>
+<h3 id="v4-v5">v4 - v5<a class="headerlink" href="#v4-v5" title="Permanent link"></a></h3>
+<ul>
+<li>Fleet Supply is not checked during Prelude</li>
+<li>Action Cards cannot be played during the prelude</li>
+<li>Planet claims canot target Trade Stations</li>
+<li>Reorganised/renamed the phases and steps. </li>
+<li>During Phase 2 (planning), negotiations and discussions are not allowed</li>
+<li>Retreats are allowed, free, do not activate destination, always to Home System, player with initiative decides first whether they retreat.</li>
+<li>Technologies: they all work, except yellows and Xenopsychology. Techs acquired during prelude do not work during prelude.</li>
+<li>Reinforced that players may not activate enemy HS round 1 as usual, even when using prelude</li>
+<li>Replaced diplomat abilities with Annexation Treaty (one use of Diplo Secondary in or adjacent to the Diplomat) and Ceasefire + (Diplomats can allow pre-retreats in their systems)</li>
+<li>Added explicit paragraph that units do not need to be carried</li>
+<li>Added that &ldquo;once per round&rdquo; combat effects can only be used once during the prelude (looking at you, Impulsion Shields)</li>
+</ul>
 <h3 id="v3-v4">v3 -&gt; v4<a class="headerlink" href="#v3-v4" title="Permanent link"></a></h3>
 <ul>
 <li>Phase 3:<ul>
