@@ -1,5 +1,5 @@
 # The Prelude Variant
-*Draft version 5*  
+*Draft version 6*  
 ***By Cyrusa and Cue***  
 
 > Prelude is a variant for Twilight Imperium:Shattered Ascension, that aims to replace the usual first 2 rounds of territorial claims and expansions with a higher level setup process, in order to reach the midgame (roughly round 3) quicker and with interesting board configurations.
@@ -68,7 +68,7 @@ Some Claims have more specific ranges, or no range restriction at all.
 Claims may not target Asteroid Fields or Supernovae.
 - **Obstacles**  
 When computing the range of a Claim, **Supernovae** and **Collapsed Space-Time** block the range. **Asteroid Fields/Belts** also block the range for races which do not start with the Antimass Deflectors Technology
-- **Flippable Wormholes**
+- **Flippable Wormholes**  
 When computing the range of a Claim, treat flippable Wormholes as having both sides active.
 - **Sovereign Space**  
 Claims may not target systems adjacent to enemy Home System, unless there is a Collapsed Space-Time between the two systems.
@@ -104,12 +104,12 @@ Follow the normal Shattered Ascension setup procedure.
 ### Phase 1: Initialisation
 
 1. **Agendas**. Reveal the top 5 Political Cards from the deck. They will be voted on in Phase 4
-2. **Pre-set Prelude Cards**. Player get their race-specific Prelude Card, and an "Opening Move" Prelude Card
+2. **Starting Prelude Cards**. Player get their race-specific Prelude Card, and an "Opening Move" Prelude Card
 3. **Starting Units**. Players place their starting Space Dock in their Home System. The rest of their starting units and Leaders goes to their Quick Reaction Force.
 
 ### Phase 2: Planning
 
-**No Negociations Allowed.**
+**No Negociations Allowed.**  
 During this phase, players are not allowed to discuss or negotiate with each others.
 
 1. **Draw and select Prelude Cards**. Players draw **7** Prelude Cards, and discard **3** of them face-down
@@ -118,13 +118,16 @@ During this phase, players are not allowed to discuss or negotiate with each oth
 4. **Claims**. In secret, players assign units from their Quick Reaction Force to their Prelude Cards with Claims, and choose which system/planets these Claims target. Unassigned units are considered as assigned to their Home System. Some Prelude Cards grant units, add them as assigned to the claim of that card.
 5. **Claim Reveal**. Reveal all Prelude Cards, along with their target and assigned units. Place units assigned to planet claims on these planets. Place units assigned to system claims in the space area of these systems.
 
+**Recycle Impossible Claims**.  
+If a player draws a Prelude Card featuring a claim that they have no legal targets for, they may reveal it and recycle it (discard and draw another). For example, the claim may refer to a specific planet that is not on the map, or all the valid planets are adjacent to enemy Home Systems (and therefore illegal to target).
+
 **Carrying**.  
 Units do not need to be carried during the prelude. It is for example allowed to assign a Destroyer, 2 Fighters and 2 Ground Forces to a system claim.
 
 ### Phase 3: Tactical
 
 **Combat abilities and effects**.  
-Mentak's pre-combat shots, Yin's suicide run and conversion roll, Xxcha inflicting -1 to enemy combat rolls, PDS in Invasion Combat, Bombardment... All these combat abilities and effects work in all combats. "Once per round" effects can only be used once during the prelude.
+Mentak's pre-combat shots, Yin's suicide run and conversion roll, Xxcha inflicting -1 to enemy combat rolls, PDS in Invasion Combat, Bombardment, Shock Troop Upgrade... All these combat abilities and effects work in all combats. "Once per round" effects can only be used once during the prelude.
 
 **Retreats**.  
 During the prelude, units/leaders always retreat to their Home System, regardless of their position. Retreats are free and do not activate the Home System. In addition, retreats are also allowed during Invasion Combat, at the end of combat rounds. Timing-wise, the player with lowest initiative decides first whether they retreat.
@@ -160,7 +163,10 @@ Something important missing?
 
 -----
 ## Changelog
-### v4 - v5
+### v5 -> v6
+- Added that Prelude Cards featuring claims that have no legal targets can be recycled.
+- Added "Shock Troop Upgrade" to the list of examples of combat effects that "always work"
+### v4 -> v5
 - Fleet Supply is not checked during Prelude
 - Action Cards cannot be played during the prelude
 - Planet claims canot target Trade Stations

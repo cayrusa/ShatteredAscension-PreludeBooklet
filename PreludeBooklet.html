@@ -1469,7 +1469,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .highlight .il{color:#009999}
 .highlight .gc{color:#999;background-color:#EAF2F5}
 </style><title>PreludeBooklet</title></head><body><article class="markdown-body"><h1 id="the-prelude-variant">The Prelude Variant<a class="headerlink" href="#the-prelude-variant" title="Permanent link"></a></h1>
-<p><em>Draft version 5</em><br />
+<p><em>Draft version 6</em><br />
 <strong><em>By Cyrusa and Cue</em></strong>  </p>
 <blockquote>
 <p>Prelude is a variant for Twilight Imperium:Shattered Ascension, that aims to replace the usual first 2 rounds of territorial claims and expansions with a higher level setup process, in order to reach the midgame (roughly round 3) quicker and with interesting board configurations.</p>
@@ -1539,7 +1539,7 @@ Some Claims have more specific ranges, or no range restriction at all.</li>
 Claims may not target Asteroid Fields or Supernovae.</li>
 <li><strong>Obstacles</strong><br />
 When computing the range of a Claim, <strong>Supernovae</strong> and <strong>Collapsed Space-Time</strong> block the range. <strong>Asteroid Fields/Belts</strong> also block the range for races which do not start with the Antimass Deflectors Technology</li>
-<li><strong>Flippable Wormholes</strong>
+<li><strong>Flippable Wormholes</strong><br />
 When computing the range of a Claim, treat flippable Wormholes as having both sides active.</li>
 <li><strong>Sovereign Space</strong><br />
 Claims may not target systems adjacent to enemy Home System, unless there is a Collapsed Space-Time between the two systems.</li>
@@ -1570,11 +1570,11 @@ Players may not have two Claims in the same System.</li>
 <h3 id="phase-1-initialisation">Phase 1: Initialisation<a class="headerlink" href="#phase-1-initialisation" title="Permanent link"></a></h3>
 <ol>
 <li><strong>Agendas</strong>. Reveal the top 5 Political Cards from the deck. They will be voted on in Phase 4</li>
-<li><strong>Pre-set Prelude Cards</strong>. Player get their race-specific Prelude Card, and an &ldquo;Opening Move&rdquo; Prelude Card</li>
+<li><strong>Starting Prelude Cards</strong>. Player get their race-specific Prelude Card, and an &ldquo;Opening Move&rdquo; Prelude Card</li>
 <li><strong>Starting Units</strong>. Players place their starting Space Dock in their Home System. The rest of their starting units and Leaders goes to their Quick Reaction Force.</li>
 </ol>
 <h3 id="phase-2-planning">Phase 2: Planning<a class="headerlink" href="#phase-2-planning" title="Permanent link"></a></h3>
-<p><strong>No Negociations Allowed.</strong>
+<p><strong>No Negociations Allowed.</strong><br />
 During this phase, players are not allowed to discuss or negotiate with each others.</p>
 <ol>
 <li><strong>Draw and select Prelude Cards</strong>. Players draw <strong>7</strong> Prelude Cards, and discard <strong>3</strong> of them face-down</li>
@@ -1583,11 +1583,13 @@ During this phase, players are not allowed to discuss or negotiate with each oth
 <li><strong>Claims</strong>. In secret, players assign units from their Quick Reaction Force to their Prelude Cards with Claims, and choose which system/planets these Claims target. Unassigned units are considered as assigned to their Home System. Some Prelude Cards grant units, add them as assigned to the claim of that card.</li>
 <li><strong>Claim Reveal</strong>. Reveal all Prelude Cards, along with their target and assigned units. Place units assigned to planet claims on these planets. Place units assigned to system claims in the space area of these systems.</li>
 </ol>
+<p><strong>Recycle Impossible Claims</strong>.<br />
+If a player draws a Prelude Card featuring a claim that they have no legal targets for, they may reveal it and recycle it (discard and draw another). For example, the claim may refer to a specific planet that is not on the map, or all the valid planets are adjacent to enemy Home Systems (and therefore illegal to target).</p>
 <p><strong>Carrying</strong>.<br />
 Units do not need to be carried during the prelude. It is for example allowed to assign a Destroyer, 2 Fighters and 2 Ground Forces to a system claim.</p>
 <h3 id="phase-3-tactical">Phase 3: Tactical<a class="headerlink" href="#phase-3-tactical" title="Permanent link"></a></h3>
 <p><strong>Combat abilities and effects</strong>.<br />
-Mentak&rsquo;s pre-combat shots, Yin&rsquo;s suicide run and conversion roll, Xxcha inflicting -1 to enemy combat rolls, PDS in Invasion Combat, Bombardment&hellip; All these combat abilities and effects work in all combats. &ldquo;Once per round&rdquo; effects can only be used once during the prelude.</p>
+Mentak&rsquo;s pre-combat shots, Yin&rsquo;s suicide run and conversion roll, Xxcha inflicting -1 to enemy combat rolls, PDS in Invasion Combat, Bombardment, Shock Troop Upgrade&hellip; All these combat abilities and effects work in all combats. &ldquo;Once per round&rdquo; effects can only be used once during the prelude.</p>
 <p><strong>Retreats</strong>.<br />
 During the prelude, units/leaders always retreat to their Home System, regardless of their position. Retreats are free and do not activate the Home System. In addition, retreats are also allowed during Invasion Combat, at the end of combat rounds. Timing-wise, the player with lowest initiative decides first whether they retreat.</p>
 <ol>
@@ -1622,7 +1624,12 @@ Something important missing?
 
 <hr />
 <h2 id="changelog">Changelog<a class="headerlink" href="#changelog" title="Permanent link"></a></h2>
-<h3 id="v4-v5">v4 - v5<a class="headerlink" href="#v4-v5" title="Permanent link"></a></h3>
+<h3 id="v5-v6">v5 -&gt; v6<a class="headerlink" href="#v5-v6" title="Permanent link"></a></h3>
+<ul>
+<li>Added that Prelude Cards featuring claims that have no legal targets can be recycled.</li>
+<li>Added &ldquo;Shock Troop Upgrade&rdquo; to the list of examples of combat effects that &ldquo;always work&rdquo;</li>
+</ul>
+<h3 id="v4-v5">v4 -&gt; v5<a class="headerlink" href="#v4-v5" title="Permanent link"></a></h3>
 <ul>
 <li>Fleet Supply is not checked during Prelude</li>
 <li>Action Cards cannot be played during the prelude</li>
