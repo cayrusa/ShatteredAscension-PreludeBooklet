@@ -1,5 +1,5 @@
 # The Prelude Variant
-*Draft version 6*  
+*Draft version 7*  
 ***By Cyrusa and Cue***  
 
 > Prelude is a variant for Twilight Imperium:Shattered Ascension, that aims to replace the usual first 2 rounds of territorial claims and expansions with a higher level setup process, in order to reach the midgame (roughly round 3) quicker and with interesting board configurations.
@@ -14,9 +14,9 @@
 	- [Leaders](#leaders)
 - [Process](#process)
 	- [Game Setup](#game-setup)
-	- [Phase 1: Initialisation](#phase-1-initialisation)
+	- [Phase 1: Preparation](#phase-1-preparation)
 	- [Phase 2: Planning](#phase-2-planning)
-	- [Phase 3: Tactical](#phase-3-tactical)
+	- [Phase 3: Tactics](#phase-3-tactics)
 	- [Phase 4: Finalisation](#phase-4-finalisation)
 - [Changelog](#changelog)	
 
@@ -51,7 +51,7 @@ Most Prelude Cards contain a **Claim**. Players use these to expand their territ
 - **Planet Claim**  
 Target a single planet (not a Trade Station). Only ground units, PDS and Space Docks can be assigned to that claim. 
 - **System Claim**  
-Target an entire system. Any units can be assigned to that claim, but if ground units, PDS or a Space Dock are assigned, at least one non-Fighter ship must also be assigned.
+Target an entire system. Any units can be assigned to that claim, but if ground units, PDS, a Space Dock or a Leader are assigned, then at least one non-Fighter ship must also be assigned.
 
 **Range of a Claim**
 
@@ -101,7 +101,7 @@ For the prelude, the abilities of Diplomats are replaced with:
 ### Game Setup
 Follow the normal Shattered Ascension setup procedure.
 
-### Phase 1: Initialisation
+### Phase 1: Preparation
 
 1. **Agendas**. Reveal the top 5 Political Cards from the deck. They will be voted on in Phase 4
 2. **Starting Prelude Cards**. Player get their race-specific Prelude Card, and an "Opening Move" Prelude Card
@@ -124,7 +124,7 @@ If a player draws a Prelude Card featuring a claim that they have no legal targe
 **Carrying**.  
 Units do not need to be carried during the prelude. It is for example allowed to assign a Destroyer, 2 Fighters and 2 Ground Forces to a system claim.
 
-### Phase 3: Tactical
+### Phase 3: Tactics
 
 **Combat abilities and effects**.  
 Mentak's pre-combat shots, Yin's suicide run and conversion roll, Xxcha inflicting -1 to enemy combat rolls, PDS in Invasion Combat, Bombardment, Shock Troop Upgrade... All these combat abilities and effects work in all combats. "Once per round" effects can only be used once during the prelude.
@@ -144,7 +144,7 @@ During the prelude, units/leaders always retreat to their Home System, regardles
 
 ### Phase 4: Finalisation
 
-1. **Prelude Cards Perks**. Players receive all the Perks from their Prelude Cards, like Trade Goods, Technologies, etc...
+1. **Prelude Cards Perks**. Players receive all the Perks from their Prelude Cards, like Trade Goods, Technologies, etc..., except those related to Trade and Assembly.
 2. **Trade**. Players with Perks relative to opening Trade Agreements can use them to open Trade Agreements between willing players. They can open Trade Agreements they are not a part of. Players do not need a Trade Agreement Perk to self-trade. After this, place the indicated number of Trade Goods on all active Trade Agreements. 
 3. **Assembly**. Players with Perks to affect the agendas may use them in initiative order, then conduct an Assembly where players have as many votes as the influence value of their Home System (to a minimum of 1), plus bonus votes from the Perks of their prelude Cards. Voice of the Council may not be called. For the purpose of resolving the agendas, this assembly is considered as taking place in the first round of the game (the one that will start after the prelude is done).
 4. **Victory Points**. Every player gains 2 Victory Points.
@@ -154,7 +154,7 @@ During the prelude, units/leaders always retreat to their Home System, regardles
 8. **Start the game**. The prelude is over.
 
 **Players may not activate enemy Home System during the first round**  
-Even if prelude roughly simulated the first two rounds, this will still technically be the first round of the game, so this standard rule does apply.
+Even if prelude roughly simulated the first two rounds, this will still technically be the first round of the game, so this base rule does apply.
 
 <!-- <details>
 	<summary>TODO</summary>
@@ -163,6 +163,11 @@ Something important missing?
 
 -----
 ## Changelog
+### v6 -> v7
+- Assigning a Leader to a system claim requires assigning a non-Fighter ship to it
+- Added to Phase 4 step 1 that perks related to Trade and Assembly are not received at that time (they are in the steps just after)
+- Renamed Phase 1 from "Initialisation" to "Preparation"
+- Renamed Phase 3 from "Tactical" to "Tactics"
 ### v5 -> v6
 - Added that Prelude Cards featuring claims that have no legal targets can be recycled.
 - Added "Shock Troop Upgrade" to the list of examples of combat effects that "always work"
