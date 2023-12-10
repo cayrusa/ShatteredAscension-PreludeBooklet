@@ -34,13 +34,14 @@
 
 ## General Rules and Definitions
 - **Prelude**. The complete process described in this variant is referred to as **the prelude** in this booklet.
-- **QRF/Quick Reaction Force**. Each player has a Quick Reaction Force (QRF for short) area to store the units they will then send on claims. These areas are private.
-- **Technologies** all work, *except yellow technologies and Xenopsychology*. Technologies acquired during the prelude have no effect during the prelude. When a Prelude Card lets a player choose a Technology to gain, pre-requisites apply.
-- **Racial Abilies** have no effect during the prelude, except combat-related ones.
 - **Initiative** defines an ordering of the player. The Speaker has an initiative of 1, the next player (following the Rotation Cycler) has 2, etc. When there is a timing conflict between two effects or decisions, the player with lowest initiative goes first.
-- **Fighter Capacity** is not checked during the prelude. It starts being checked again when the prelude is over.
-- **Fleet Supply** is not checked during the prelude. It starts being checked again when the prelude is over.
+- **QRF/Quick Reaction Force**. Each player has a Quick Reaction Force (QRF for short) area to store the units they will then send on claims. These areas are private.
+- **Technologies**. During the prelude, races can only use the Technologies they started with. *Yellow technologies and Xenopsychology are also not useable*. This implies that Technologies acquired during the prelude have no effect until the game start.  When a Prelude Card lets a player choose a Technology to gain, pre-requisites apply.
+- **Racial Abilies** have no effect during the prelude, except combat-related ones.
+- **Fighter Capacity** and **Fleet Supply** are not checked during the prelude. They start being checked again when the prelude is over.
 - **Action Cards** cannot be played during the prelude.
+- **Trade Goods** can be spent and exchanged normally, except when explicitly disallowed.
+- **Planets** may not be used to pay costs.
 
 
 ### Claims
@@ -77,7 +78,27 @@ Players may not target Claims at Home Systems, even their own.
 - **One Claim per System (per Player)**  
 Players may not have two Claims in the same System.
 
-> TODO: show a picture with examples of range calculation.
+**Example**
+
+The following example shows which systems Mentak, whose Home System in the top-left, could target with a System Claim of range 2:
+<div class="row">
+	<div class="leftcolumn">
+		<!-- <img src="./Images/RangeDiagram.jpg" height="600"/> -->
+		<img src="./Images/RangeDiagram.jpg"/>
+	</div>
+	<div class="rightcolumn">
+		<ol>
+			<li>Illegal, because Claims cannot target Home Systems</li>
+			<li>Legal</li>
+			<li>Illegal, because too far away (distance 3)</li>
+			<li>Illegal, because adjacent to an enemy Home System</li>
+			<li>Legal, because a Collapsed Space-Time separates it from the enemy Home System</li>
+			<li>Illegal, because Mentak does not start with Antimass Deflectors to cross the Asteroid Belt. It would be legal if Mentak had a Range 3 Claim</li>
+			<li>Legal, because it is 2 systems away, since flippable wormhole tokens count as both wormhole types</li>
+		</ol>
+	</div>
+</div>
+
 
 ### Leaders
 Leaders can also be assigned to Claims. They have their usual abilities, except Diplomats (see below). Fate Rolls during the Prelude happen at the end of Phase 3.
@@ -85,7 +106,7 @@ Leaders can also be assigned to Claims. They have their usual abilities, except 
 For the prelude, the abilities of Diplomats are replaced with:
 
 **Annexation Treaty**  
-*At the end of Phase 3, Diplomats may use the Secondary Ability of the Diplomacy Strategy Card for free, in their system or an adjacent one. Refresh planets acquired this way.*
+*In the appropriate step of Phase 3, Diplomats may use the Secondary Ability of the Diplomacy Strategy Card for free, in their system or an adjacent one.*
 
 **Ceasefire +**  
 *A Diplomat may let players retreat before Space Battle/Invasion Combats in their system.*
@@ -113,10 +134,11 @@ Follow the normal Shattered Ascension setup procedure.
 During this phase, players are not allowed to discuss or negotiate with each others.
 
 1. **Draw and select Prelude Cards**. Players draw **7** Prelude Cards, and discard **3** of them face-down
-2. **Production**. In secret, players produce units at their starting Space Dock, respecting its production capacity and *only* using the resource value of their Home System for payment. They place these units in their Quick Reaction Force.
+2. **Production**. In secret, players produce units at their starting Space Dock, respecting its production capacity and *exclusively* using the resource value of their Home System for payment (this does not exhaust their Home System planets). They place these units in their Quick Reaction Force.
 3. **Additional Units**. If they hold Prelude Cards granting QRF units, they add them to their Quick Reaction Force.
 4. **Claims**. In secret, players assign units from their Quick Reaction Force to their Prelude Cards with Claims, and choose which system/planets these Claims target. Unassigned units are considered as assigned to their Home System. Some Prelude Cards grant units, add them as assigned to the claim of that card.
-5. **Claim Reveal**. Reveal all Prelude Cards, along with their target and assigned units. Place units assigned to planet claims on these planets. Place units assigned to system claims in the space area of these systems.
+5. **Warning!** Before the following step, each player should double-check that the targets of their claims and their unit assignment are legal. In particular, common mistakes are miscalculating the range of claims, and forgetting to assign at least one non-Fighter ship to a system claim where ground units have been assigned.
+6. **Claim Reveal**. Reveal all Prelude Cards, along with their target and assigned units. Place units assigned to planet claims on these planets. Place units assigned to system claims in the space area of these systems.
 
 **Recycle Impossible Claims**.  
 If a player draws a Prelude Card featuring a claim that they have no legal targets for, they may reveal it and recycle it (discard and draw another). For example, the claim may refer to a specific planet that is not on the map, or all the valid planets are adjacent to enemy Home Systems (and therefore illegal to target).
@@ -138,7 +160,12 @@ During the prelude, units/leaders always retreat to their Home System, regardles
 4. **PvP Invasion Combats**. Resolve Invasion Combats on each planet containing units of 2 or more players, until no two players have units on the same planet. In initiative order, each player resolves all their Invasion Combats with the next player in initiative order, then with the following player in initiative order, etc... If a player has multiple Invasion Combats with another player, they decide the order.
 5. **Ground Domain Counters**. Players resolve ground Domain Counters on planets they have units on. They then resolve ground Artifacts on planets they have units on. Artifact objectives are claimed instantly and provide Victory Points immediately.
 6. **Maneuver**. Each player gets to do one Maneuver. It consists in choosing a system and moving any number of their ships from adjacent systems to that system (pick-up is allowed, but not landing. Fighters can move independantly for that purpose). Each player decides their Maneuver in secret. They are then revealed and carried out simultaneously. Finally, resolve Space Battles in systems containing ships of multiple players, in the same way as the *PvP Space Battles* step. Maneuvers may not happen in a system adjacent to an enemy Home System, unless there is a Collapsed Space-Time between the two systems.
-7. **Planet Cards**. Players take the planet cards of the planets they now control (refreshed).
+7. **Diplomats**. Diplomat Leaders may use their prelude-specific *Annexation Treaty* ability.
+8. **Planet Cards**. Players take the planet cards of the planets they now control (refreshed). Players who qualify for the Sovereign/Imperial Special Objectives immediately claim them.
+
+**Natural Wealth**.  
+Players *do collect* the first Trade Good of the Natural Wealth Domain Counters they resolve, even though it was done as part of a Tactical Action (like the wording of Natural Wealth requires).
+
 
 > TODO: Show an example of what a completed assignment step might look like for a player.
 
@@ -149,9 +176,8 @@ During the prelude, units/leaders always retreat to their Home System, regardles
 3. **Assembly**. Players with Perks to affect the agendas may use them in initiative order, then conduct an Assembly where players have as many votes as the influence value of their Home System (to a minimum of 1), plus bonus votes from the Perks of their prelude Cards. Voice of the Council may not be called. For the purpose of resolving the agendas, this assembly is considered as taking place in the first round of the game (the one that will start after the prelude is done).
 4. **Victory Points**. Every player gains 2 Victory Points.
 5. **Racial Upgrade**. Conduct the "Unlock Racial Upgrades" step of the Status Phase. Players can only use their Trade Goods to pay.
-6. **Command Counters**. Players can redistribute the Command Counters on their race sheet.
-7. **Repair**. All units are repaired.
-8. **Start the game**. The prelude is over.
+6. **Repair**. All units are repaired.
+7. **Start the game**. The prelude is over.
 
 **Players may not activate enemy Home System during the first round**  
 Even if prelude roughly simulated the first two rounds, this will still technically be the first round of the game, so this base rule does apply.
@@ -163,6 +189,16 @@ Something important missing?
 
 -----
 ## Changelog
+### v7 -> v8
+- Phase 4: Removed the CC redistribution step
+- Phase 3: Dedicated step for the Diplomat annexations. Ability's wording updated to reflect that.
+- Phase 2, production step: clarified that this does not exhaust the HS planets
+- Planets may not be used to pay cost
+- Trade Goods may be spent and exchanged normally, except when explicitly disallowed (ex: production step  in Phase 2)
+- Illustrated example of what a range 2 system claim can target
+- Technology statement rewritten to say only starting techs can be used, so that techs from the Alien Artefact DC are also unusable during prelude
+- Phase 3. Sovereign/Imperial are claimed immediately
+- Phase 3. Explicit ruling that players do collect the first TG of Natural Wealth
 ### v6 -> v7
 - Assigning a Leader to a system claim requires assigning a non-Fighter ship to it
 - Added to Phase 4 step 1 that perks related to Trade and Assembly are not received at that time (they are in the steps just after)
