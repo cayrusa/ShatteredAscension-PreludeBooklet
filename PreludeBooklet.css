@@ -371,6 +371,7 @@ The following two are there for a two column setup, source: https://www.w3school
 */
 .row {
   display: flex;
+  margin-left: 0px;
 }
 
 .column {
@@ -380,11 +381,13 @@ The following two are there for a two column setup, source: https://www.w3school
 .leftcolumn {
   float: left;
   width: 60%;
+  margin-left: 0px;
 }
 
 .rightcolumn {
   float: left;
   width: 40%;
+  margin-left: 0px;
 }
 
 /* My Changes (End)*/
