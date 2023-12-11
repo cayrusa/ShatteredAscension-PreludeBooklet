@@ -50,9 +50,9 @@ Most Prelude Cards contain a **Claim**. Players use these to expand their territ
 **Types of Claims**  
 
 - **Planet Claim**  
-Target a single planet (not a Trade Station). Only ground units, PDS and Space Docks can be assigned to that claim. 
+Target a single planet (not a Trade Station). Only ground units, PDS, Space Docks and Leaders can be assigned to that claim. 
 - **System Claim**  
-Target an entire system. Any units can be assigned to that claim, but if ground units, PDS, a Space Dock or a Leader are assigned, then at least one non-Fighter ship must also be assigned.
+Target an entire system. Any units/Leaders can be assigned to that claim, but if at least one non-ship is assigned to it, then at least one non-Fighter ship must also be assigned.
 
 **Range of a Claim**
 
