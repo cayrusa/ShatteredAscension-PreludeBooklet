@@ -1,5 +1,5 @@
 # The Prelude Variant
-*Draft version 8*  
+*Draft version 9*  
 ***By Cyrusa and Cue***  
 
 > Prelude is a variant for Twilight Imperium:Shattered Ascension, that aims to replace the usual first 2 rounds of territorial claims and expansions with a higher level setup process, in order to reach the midgame (roughly round 3) quicker and with interesting board configurations.
@@ -12,6 +12,7 @@
 - [General Rules and Definitions](#general-rules-and-definitions)
 	- [Claims](#claims)
 	- [Leaders](#leaders)
+	- [Perk Timing](#perk-timing)
 - [Process](#process)
 	- [Game Setup](#game-setup)
 	- [Phase 1: Preparation](#phase-1-preparation)
@@ -117,6 +118,15 @@ For the prelude, the abilities of Diplomats are replaced with:
 **Claim Negociation**  
 *After Claims are revealed, if a player has a Claim in a system containing an enemy Diplomat, they may instead change the target of that Claim to an adjacent system containing no Claims. They must respect the type of the Claim (planet/system), but ignore its other restrictions (like a specific technology specialty).* -->
 
+### Perk Timing
+
+The timing for obtaining the Perks listed on the Prelude Cards are as follow:  
+
+- Perks giving units (to QRF or not) are resolved in Phase 2, in the Claims step.
+- Perks related to votes and agendas are resolved in Phase 4, in the Assembly step.
+- Perks related to trade agreements are resolved in Phase 4, in the Trade step.
+- Every other Perk, unless specified, is resolved at the end of Phase 2 (after Claims are revealed)
+
 ## Process
 
 ### Game Setup
@@ -133,10 +143,13 @@ Follow the normal Shattered Ascension setup procedure.
 **No Negociations Allowed.**  
 During this phase, players are not allowed to discuss or negotiate with each others.
 
-1. **Draw and select Prelude Cards**. Players draw **7** Prelude Cards, and discard **3** of them face-down
-2. **Production**. In secret, players produce units at their starting Space Dock, respecting its production capacity and *exclusively* using the resource value of their Home System for payment (this does not exhaust their Home System planets). They place these units in their Quick Reaction Force.
+**Secret.**  
+With the exception of the last step, this Phase is done in secret by all players. They do not show which Prelude Cards they keep, which units they gain/produce, what they target their Claims at...
+
+1. **Draw and select Prelude Cards**. Players draw **7** Prelude Cards. Note that they will only get to use **4** of these.
+2. **Production**. Players produce units at their starting Space Dock, respecting its production capacity and *exclusively* using the resource value of their Home System for payment (this does not exhaust their Home System planets). They place these units in their Quick Reaction Force.
 3. **Additional Units**. If they hold Prelude Cards granting QRF units, they add them to their Quick Reaction Force.
-4. **Claims**. In secret, players assign units from their Quick Reaction Force to their Prelude Cards with Claims, and choose which system/planets these Claims target. Unassigned units are considered as assigned to their Home System. Some Prelude Cards grant units, add them as assigned to the claim of that card.
+4. **Claims**. Players choose **3** of the 7 Prelude Cards they drew and set them aside, they will not use them. Players then assign units from their Quick Reaction Force to their Prelude Cards with Claims, and choose which system/planets these Claims target. Unassigned units are considered as assigned to their Home System. Some Prelude Cards grant units, add them as assigned to the claim of that card.
 5. **Warning!** Before the following step, each player should double-check that the targets of their claims and their unit assignment are legal. In particular, common mistakes are miscalculating the range of claims, and forgetting to assign at least one non-Fighter ship to a system claim where ground units have been assigned.
 6. **Claim Reveal**. Reveal all Prelude Cards, along with their target and assigned units. Place units assigned to planet claims on these planets. Place units assigned to system claims in the space area of these systems.
 
@@ -189,6 +202,10 @@ Something important missing?
 
 -----
 ## Changelog
+### v8 -> v9
+- Phase 2: Made it more explicit that everything happens in secret
+- Phase 2: Moved the discard of the 3 unused prelude cards so players do not have to choose right away which one they keep (as we actually do it in playtests)
+- Explicit explanation of perk timings
 ### v7 -> v8
 - Phase 4: Removed the CC redistribution step
 - Phase 3: Dedicated step for the Diplomat annexations. Ability's wording updated to reflect that.

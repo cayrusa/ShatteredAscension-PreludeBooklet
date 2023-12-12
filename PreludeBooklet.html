@@ -1493,7 +1493,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .highlight .il{color:#009999}
 .highlight .gc{color:#999;background-color:#EAF2F5}
 </style><title>PreludeBooklet</title></head><body><article class="markdown-body"><h1 id="the-prelude-variant">The Prelude Variant<a class="headerlink" href="#the-prelude-variant" title="Permanent link"></a></h1>
-<p><em>Draft version 8</em><br />
+<p><em>Draft version 9</em><br />
 <strong><em>By Cyrusa and Cue</em></strong>  </p>
 <blockquote>
 <p>Prelude is a variant for Twilight Imperium:Shattered Ascension, that aims to replace the usual first 2 rounds of territorial claims and expansions with a higher level setup process, in order to reach the midgame (roughly round 3) quicker and with interesting board configurations.</p>
@@ -1505,6 +1505,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 <li><a href="#general-rules-and-definitions">General Rules and Definitions</a><ul>
 <li><a href="#claims">Claims</a></li>
 <li><a href="#leaders">Leaders</a></li>
+<li><a href="#perk-timing">Perk Timing</a></li>
 </ul>
 </li>
 <li><a href="#process">Process</a><ul>
@@ -1605,6 +1606,14 @@ Players may not have two Claims in the same System.</li>
 **Claim Negociation**  
 *After Claims are revealed, if a player has a Claim in a system containing an enemy Diplomat, they may instead change the target of that Claim to an adjacent system containing no Claims. They must respect the type of the Claim (planet/system), but ignore its other restrictions (like a specific technology specialty).* -->
 
+<h3 id="perk-timing">Perk Timing<a class="headerlink" href="#perk-timing" title="Permanent link"></a></h3>
+<p>The timing for obtaining the Perks listed on the Prelude Cards are as follow:  </p>
+<ul>
+<li>Perks giving units (to QRF or not) are resolved in Phase 2, in the Claims step.</li>
+<li>Perks related to votes and agendas are resolved in Phase 4, in the Assembly step.</li>
+<li>Perks related to trade agreements are resolved in Phase 4, in the Trade step.</li>
+<li>Every other Perk, unless specified, is resolved at the end of Phase 2 (after Claims are revealed)</li>
+</ul>
 <h2 id="process">Process<a class="headerlink" href="#process" title="Permanent link"></a></h2>
 <h3 id="game-setup">Game Setup<a class="headerlink" href="#game-setup" title="Permanent link"></a></h3>
 <p>Follow the normal Shattered Ascension setup procedure.</p>
@@ -1617,11 +1626,13 @@ Players may not have two Claims in the same System.</li>
 <h3 id="phase-2-planning">Phase 2: Planning<a class="headerlink" href="#phase-2-planning" title="Permanent link"></a></h3>
 <p><strong>No Negociations Allowed.</strong><br />
 During this phase, players are not allowed to discuss or negotiate with each others.</p>
+<p><strong>Secret.</strong><br />
+With the exception of the last step, this Phase is done in secret by all players. They do not show which Prelude Cards they keep, which units they gain/produce, what they target their Claims at&hellip;</p>
 <ol>
-<li><strong>Draw and select Prelude Cards</strong>. Players draw <strong>7</strong> Prelude Cards, and discard <strong>3</strong> of them face-down</li>
-<li><strong>Production</strong>. In secret, players produce units at their starting Space Dock, respecting its production capacity and <em>exclusively</em> using the resource value of their Home System for payment (this does not exhaust their Home System planets). They place these units in their Quick Reaction Force.</li>
+<li><strong>Draw and select Prelude Cards</strong>. Players draw <strong>7</strong> Prelude Cards. Note that they will only get to use <strong>4</strong> of these.</li>
+<li><strong>Production</strong>. Players produce units at their starting Space Dock, respecting its production capacity and <em>exclusively</em> using the resource value of their Home System for payment (this does not exhaust their Home System planets). They place these units in their Quick Reaction Force.</li>
 <li><strong>Additional Units</strong>. If they hold Prelude Cards granting QRF units, they add them to their Quick Reaction Force.</li>
-<li><strong>Claims</strong>. In secret, players assign units from their Quick Reaction Force to their Prelude Cards with Claims, and choose which system/planets these Claims target. Unassigned units are considered as assigned to their Home System. Some Prelude Cards grant units, add them as assigned to the claim of that card.</li>
+<li><strong>Claims</strong>. Players choose <strong>3</strong> of the 7 Prelude Cards they drew and set them aside, they will not use them. Players then assign units from their Quick Reaction Force to their Prelude Cards with Claims, and choose which system/planets these Claims target. Unassigned units are considered as assigned to their Home System. Some Prelude Cards grant units, add them as assigned to the claim of that card.</li>
 <li><strong>Warning!</strong> Before the following step, each player should double-check that the targets of their claims and their unit assignment are legal. In particular, common mistakes are miscalculating the range of claims, and forgetting to assign at least one non-Fighter ship to a system claim where ground units have been assigned.</li>
 <li><strong>Claim Reveal</strong>. Reveal all Prelude Cards, along with their target and assigned units. Place units assigned to planet claims on these planets. Place units assigned to system claims in the space area of these systems.</li>
 </ol>
@@ -1668,6 +1679,12 @@ Something important missing?
 
 <hr />
 <h2 id="changelog">Changelog<a class="headerlink" href="#changelog" title="Permanent link"></a></h2>
+<h3 id="v8-v9">v8 -&gt; v9<a class="headerlink" href="#v8-v9" title="Permanent link"></a></h3>
+<ul>
+<li>Phase 2: Made it more explicit that everything happens in secret</li>
+<li>Phase 2: Moved the discard of the 3 unused prelude cards so players do not have to choose right away which one they keep (as we actually do it in playtests)</li>
+<li>Explicit explanation of perk timings</li>
+</ul>
 <h3 id="v7-v8">v7 -&gt; v8<a class="headerlink" href="#v7-v8" title="Permanent link"></a></h3>
 <ul>
 <li>Phase 4: Removed the CC redistribution step</li>
