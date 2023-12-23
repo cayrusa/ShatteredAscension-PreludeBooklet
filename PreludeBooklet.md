@@ -1,5 +1,5 @@
 # The Prelude Variant
-*Draft version 9*  
+*Draft version 10 - 2023-12-24*  
 ***By Cyrusa and Cue***  
 
 > Prelude is a variant for Twilight Imperium:Shattered Ascension, that aims to replace the usual first 2 rounds of territorial claims and expansions with a higher level setup process, in order to reach the midgame (roughly round 3) quicker and with interesting board configurations.
@@ -43,10 +43,15 @@
 - **Action Cards** cannot be played during the prelude.
 - **Trade Goods** can be spent and exchanged normally, except when explicitly disallowed.
 - **Planets** may not be used to pay costs.
+- **Objectives** may not be claimed, except Special Objectives (green).
 
 
 ### Claims
 Most Prelude Cards contain a **Claim**. Players use these to expand their territory during the prelude. For each Claim, they will choose a planet or system to target with it, and will assign units to it. Each Claim has a type and a range, the possibilities are listed below, as well as additional restrictions as to the target of Claims.
+
+<p class="aligncenter">
+	<img src="./Images/PreludeCardsExamples.jpg" height="300"/>
+</p>
 
 **Types of Claims**  
 
@@ -69,7 +74,10 @@ Some Claims have more specific ranges, or no range restriction at all.
 - **Impassable Systems**  
 Claims may not target Asteroid Fields or Supernovae.
 - **Obstacles**  
-When computing the range of a Claim, **Supernovae** and **Collapsed Space-Time** block the range. **Asteroid Fields/Belts** also block the range for races which do not start with the Antimass Deflectors Technology
+When computing the range of a Claim,
+	- **Supernovae** and **Collapsed Space-Time** block the range.
+	- **Asteroid Fields/Belts** block the range for races which do not start with the Antimass Deflectors Technology.
+	- **Standing Grav-Wave** block the range except in the direction indicated by the token.
 - **Flippable Wormholes**  
 When computing the range of a Claim, treat flippable Wormholes as having both sides active.
 - **Sovereign Space**  
@@ -78,6 +86,8 @@ Claims may not target systems adjacent to enemy Home System, unless there is a C
 Players may not target Claims at Home Systems, even their own.
 - **One Claim per System (per Player)**  
 Players may not have two Claims in the same System.
+- **Worldgates**  
+Worldgates do not affect range calculations for Claims, but if a player targets a Claim at a system/planet with a worldgate, they can do a bonus planet Claim (without a Prelude Card) targeting another worldgate planet. Other Adjacent Claims may not compute their target from that bonus Claim. This bonus Claim does not trigger this effect again.
 
 **Example**
 
@@ -125,7 +135,7 @@ The timing for obtaining the Perks listed on the Prelude Cards are as follow:
 - Perks giving units (to QRF or not) are resolved in Phase 2, in the Claims step.
 - Perks related to votes and agendas are resolved in Phase 4, in the Assembly step.
 - Perks related to trade agreements are resolved in Phase 4, in the Trade step.
-- Every other Perk, unless specified, is resolved at the end of Phase 2 (after Claims are revealed)
+- Every other Perk, unless it has an explicit timing, is resolved in Phase 2, in the Perks step.
 
 ## Process
 
@@ -150,8 +160,14 @@ With the exception of the last step, this Phase is done in secret by all players
 2. **Production**. Players produce units at their starting Space Dock, respecting its production capacity and *exclusively* using the resource value of their Home System for payment (this does not exhaust their Home System planets). They place these units in their Quick Reaction Force.
 3. **Additional Units**. If they hold Prelude Cards granting QRF units, they add them to their Quick Reaction Force.
 4. **Claims**. Players choose **3** of the 7 Prelude Cards they drew and set them aside, they will not use them. Players then assign units from their Quick Reaction Force to their Prelude Cards with Claims, and choose which system/planets these Claims target. Unassigned units are considered as assigned to their Home System. Some Prelude Cards grant units, add them as assigned to the claim of that card.
-5. **Warning!** Before the following step, each player should double-check that the targets of their claims and their unit assignment are legal. In particular, common mistakes are miscalculating the range of claims, and forgetting to assign at least one non-Fighter ship to a system claim where ground units have been assigned.
+5. **Warning!** Before the following step, each player should double-check that the targets of their claims and their unit assignment are legal. In particular, common mistakes are:  
+
+	- miscalculating the range of a Claim
+	- forgetting to assign at least one non-Fighter ship to a system Claim where ground units have been assigned
+	- sending ships to a planet Claim
+
 6. **Claim Reveal**. Reveal all Prelude Cards, along with their target and assigned units. Place units assigned to planet claims on these planets. Place units assigned to system claims in the space area of these systems.
+7. **Perks**. Players receive the Perks written on their Prelude Cards, except those with explicit timings, and Assembly/Trade Agreements-related ones that will be received in Phase 4.
 
 **Recycle Impossible Claims**.  
 If a player draws a Prelude Card featuring a claim that they have no legal targets for, they may reveal it and recycle it (discard and draw another). For example, the claim may refer to a specific planet that is not on the map, or all the valid planets are adjacent to enemy Home Systems (and therefore illegal to target).
@@ -159,10 +175,12 @@ If a player draws a Prelude Card featuring a claim that they have no legal targe
 **Carrying**.  
 Units do not need to be carried during the prelude. It is for example allowed to assign a Destroyer, 2 Fighters and 2 Ground Forces to a system claim.
 
+> TODO: Show an example of what a completed Planning Phase might look like for a player.
+
 ### Phase 3: Tactics
 
 **Combat abilities and effects**.  
-Mentak's pre-combat shots, Yin's suicide run and conversion roll, Xxcha inflicting -1 to enemy combat rolls, PDS in Invasion Combat, Bombardment, Shock Troop Upgrade... All these combat abilities and effects work in all combats. "Once per round" effects can only be used once during the prelude.
+Mentak's pre-combat shots, Yin's suicide run and conversion roll, Xxcha inflicting -1 to enemy combat rolls, PDS in Invasion Combat, Bombardment, Shock Troop Upgrade, Nebulae... All these combat abilities and effects work in all combats (treat players as both attackers and defenders in all combats). "Once per round" effects can only be used once during the prelude.
 
 **Retreats**.  
 During the prelude, units/leaders always retreat to their Home System, regardless of their position. Retreats are free and do not activate the Home System. In addition, retreats are also allowed during Invasion Combat, at the end of combat rounds. Timing-wise, the player with lowest initiative decides first whether they retreat.
@@ -177,20 +195,16 @@ During the prelude, units/leaders always retreat to their Home System, regardles
 8. **Planet Cards**. Players take the planet cards of the planets they now control (refreshed). Players who qualify for the Sovereign/Imperial Special Objectives immediately claim them.
 
 **Natural Wealth**.  
-Players *do collect* the first Trade Good of the Natural Wealth Domain Counters they resolve, even though it was done as part of a Tactical Action (like the wording of Natural Wealth requires).
-
-
-> TODO: Show an example of what a completed assignment step might look like for a player.
+Players *do collect* the first Trade Good of stacks of Natural Wealth on planets they take control of, even though it was not done as part of a Tactical Action (like the wording of Natural Wealth requires).
 
 ### Phase 4: Finalisation
 
-1. **Prelude Cards Perks**. Players receive all the Perks from their Prelude Cards, like Trade Goods, Technologies, etc..., except those related to Trade and Assembly.
-2. **Trade**. Players with Perks relative to opening Trade Agreements can use them to open Trade Agreements between willing players. They can open Trade Agreements they are not a part of. Players do not need a Trade Agreement Perk to self-trade. After this, place the indicated number of Trade Goods on all active Trade Agreements. 
-3. **Assembly**. Players with Perks to affect the agendas may use them in initiative order, then conduct an Assembly where players have as many votes as the influence value of their Home System (to a minimum of 1), plus bonus votes from the Perks of their prelude Cards. Voice of the Council may not be called. For the purpose of resolving the agendas, this assembly is considered as taking place in the first round of the game (the one that will start after the prelude is done).
-4. **Victory Points**. Every player gains 2 Victory Points.
-5. **Racial Upgrade**. Conduct the "Unlock Racial Upgrades" step of the Status Phase. Players can only use their Trade Goods to pay.
-6. **Repair**. All units are repaired.
-7. **Start the game**. The prelude is over.
+1. **Trade**. Players with Perks relative to opening Trade Agreements can use them to open Trade Agreements between willing players. They can open Trade Agreements they are not a part of. Players do not need a Trade Agreement Perk to self-trade. After this, place the indicated number of Trade Goods on all active Trade Agreements. 
+2. **Assembly**. Players with Perks to affect the agendas may use them in initiative order, then conduct an Assembly where players have as many votes as the influence value of their Home System (to a minimum of 1), plus bonus votes from the Perks of their prelude Cards. Voice of the Council may not be called. For the purpose of resolving the agendas, this assembly is considered as taking place in the first round of the game (the one that will start after the prelude is done).
+3. **Victory Points**. Every player gains 2 Victory Points.
+4. **Racial Upgrade**. Conduct the "Unlock Racial Upgrades" step of the Status Phase. Players can only use their Trade Goods to pay.
+5. **Repair**. All units are repaired.
+6. **Start the game**. The prelude is over.
 
 **Players may not activate enemy Home System during the first round**  
 Even if prelude roughly simulated the first two rounds, this will still technically be the first round of the game, so this base rule does apply.
@@ -202,6 +216,16 @@ Something important missing?
 
 -----
 ## Changelog
+### v9 -> v10
+- Phase 4. Removed now unnecessary step 1 "Prelude Cards Perks"
+- Standing Grav-Wave added as range-computation obstacles
+- General rule. Non-green Objectives may not be claimed
+- Added Nebulae to the list of examples of combat effect that always work
+- Worldgates give a bonus planet claim for another worldgate planet
+- Planning Phase. Added to the double-check step that a common mistake is to send ships to a planet claim
+- Planning Phase. Added an explicit "Perks" step at the end for all the misc perks that do not have specific timings
+- Added picture showing a few prelude cards as example in the Range section
+- Reworded slightly the Natural Wealth paragraph
 ### v8 -> v9
 - Phase 2: Made it more explicit that everything happens in secret
 - Phase 2: Moved the discard of the 3 unused prelude cards so players do not have to choose right away which one they keep (as we actually do it in playtests)
