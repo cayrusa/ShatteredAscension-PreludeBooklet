@@ -120,7 +120,7 @@ For the prelude, the abilities of Diplomats are replaced with:
 *In the appropriate step of Phase 3, Diplomats may use the Secondary Ability of the Diplomacy Strategy Card for free, in their system or an adjacent one.*
 
 **Ceasefire +**  
-*A Diplomat may let players retreat before Space Battle/Invasion Combats in their system.*
+*A Diplomat may let players retreat before Space Battle/Invasion Combats in their system (when used, no combat takes place).*
 
 <!-- **Diplomatic Immunity**  
 *If a Diplomat participates in an Invasion Combat, the opponent will have to lose control of a planet at the end of Phase 3 (they move their units/Leaders from that planet to their Home System beforehand).*
@@ -190,7 +190,7 @@ During the prelude, units/leaders always retreat to their Home System, regardles
 3. **Ground Assignment**. In initiative order, players with ground units, PDS or Space Dock assigned to a system may assign them to specific planets of that system. These units that did not get assigned to a planet must be placed on ships in the system with adequate capacity, or be destroyed. Saar Space Docks are not assigned to planets and stay in space.
 4. **PvP Invasion Combats**. Resolve Invasion Combats on each planet containing units of 2 or more players, until no two players have units on the same planet. In initiative order, each player resolves all their Invasion Combats with the next player in initiative order, then with the following player in initiative order, etc... If a player has multiple Invasion Combats with another player, they decide the order.
 5. **Ground Domain Counters**. Players resolve ground Domain Counters on planets they have units on. They then resolve ground Artifacts on planets they have units on. Artifact objectives are claimed instantly and provide Victory Points immediately.
-6. **Maneuver**. Each player gets to do one Maneuver. It consists in choosing a system and moving any number of their ships from adjacent systems to that system (pick-up is allowed, but not landing. Fighters can move independantly for that purpose). Each player decides their Maneuver in secret. They are then revealed and carried out simultaneously. Finally, resolve Space Battles in systems containing ships of multiple players, in the same way as the *PvP Space Battles* step. Maneuvers may not happen in a system adjacent to an enemy Home System, unless there is a Collapsed Space-Time between the two systems.
+6. **Maneuver**. Each player gets to do one Maneuver. It consists in choosing a system and moving any number of their ships from adjacent systems to that system (pick-up is allowed, but not landing;  Fighters can move independantly for that purpose). Each player decides their Maneuver in secret. They are then revealed and carried out simultaneously. Finally, resolve Space Battles in systems containing ships of multiple players, in the same way as the *PvP Space Battles* step. Maneuvers may not happen in a system adjacent to an enemy Home System, unless there is a Collapsed Space-Time between the two systems.
 7. **Diplomats**. Diplomat Leaders may use their prelude-specific *Annexation Treaty* ability.
 8. **Planet Cards**. Players take the planet cards of the planets they now control (refreshed). Players who qualify for the Sovereign/Imperial Special Objectives immediately claim them.
 
@@ -226,6 +226,7 @@ Something important missing?
 - Planning Phase. Added an explicit "Perks" step at the end for all the misc perks that do not have specific timings
 - Added picture showing a few prelude cards as example in the Range section
 - Reworded slightly the Natural Wealth paragraph
+- Ability Ceasefire+ of Diplomats: made explicit that if used, no combat happens (therefore no ST promotion for example)
 ### v8 -> v9
 - Phase 2: Made it more explicit that everything happens in secret
 - Phase 2: Moved the discard of the 3 unused prelude cards so players do not have to choose right away which one they keep (as we actually do it in playtests)
