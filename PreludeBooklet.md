@@ -1,5 +1,5 @@
 # The Prelude Variant
-*Draft version 11 - 2024-01-03*  
+*Draft version 12 - 2024-01-04*  
 ***By Cyrusa and Cue***  
 
 > Prelude is a variant for Twilight Imperium:Shattered Ascension, that aims to replace the usual first 2 rounds of territorial claims and expansions with a higher level setup process, in order to reach the midgame (roughly round 3) quicker and with interesting board configurations.
@@ -37,7 +37,7 @@
 - **Prelude**. The complete process described in this variant is referred to as **the prelude** in this booklet.
 - **Initiative** defines an ordering of the player. The Speaker has an initiative of 1, the next player (following the Rotation Cycler) has 2, etc. When there is a timing conflict between two effects or decisions, the player with lowest initiative goes first.
 - **QRF/Quick Reaction Force**. Each player has a Quick Reaction Force (QRF for short) area to store the units they will then send on claims. These areas are private.
-- **Technologies**. During the prelude, races can only use the Technologies they started with. *Yellow technologies are also not useable*. This implies that Technologies acquired during the prelude have no effect until the game start.  When a Prelude Card lets a player choose a Technology to gain, pre-requisites apply.
+- **Technologies**. During the prelude, races can only use the Technologies they started with. In addition, *Sarween Tools* is not useable, even for races that start with it. This implies that Technologies acquired during the prelude have no effect until the game start.  When a Prelude Card lets a player choose a Technology to gain, pre-requisites apply.
 - **Racial Abilies** have no effect during the prelude, except combat ones.
 - **Fighter Capacity** and **Fleet Supply** are not checked during the prelude. They start being checked again when the prelude is over.
 - **Action Cards** cannot be played during the prelude.
@@ -198,7 +198,7 @@ Players *do collect* the first Trade Good of stacks of Natural Wealth on planets
 
 ### Phase 4: Finalisation
 
-1. **Trade**. Players with Perks relative to opening Trade Agreements can use them to open Trade Agreements between willing players. They can open Trade Agreements they are not a part of. Players do not need a Trade Agreement Perk to self-trade. After this, place the indicated number of Trade Goods on all active Trade Agreements. 
+1. **Trade**. Players with Perks relative to opening Trade Agreements can use them to open Trade Agreements between willing players, even Trade Agreements they are not a part of. After this, place the indicated number of Trade Goods on all active Trade Agreements. 
 2. **Assembly**. Players with Perks to affect the agendas may use them in initiative order, then conduct an Assembly where players have as many votes as the influence value of their Home System (to a minimum of 1), plus bonus votes from the Perks of their prelude Cards. Voice of the Council may not be called. For the purpose of resolving the agendas, this assembly is considered as taking place in the first round of the game (the one that will start after the prelude is done).
 3. **Victory Points**. Every player gains 2 Victory Points.
 4. **Racial Upgrade**. Conduct the "Unlock Racial Upgrades" step of the Status Phase. Players can only use their Trade Goods to pay.
@@ -215,6 +215,9 @@ Something important missing?
 
 -----
 ## Changelog
+### v11 -> v12
+- Phase 4. Trading. Removed that self-trade agreements can be opened without an "open a trade agreement" perk
+- Technology exceptions changed: starting yellow technologies are all useable, except Sarween Tools.
 ### v10 -> v11
 - Removed the line saying XenoPsychology isn't useable in the prelude (Xxcha's racial card was modified in consequence to have the bonus votes but not the boosted Diplomacy Secondary)
 - Typo. Phase 2. "No Negociations" -> "No Negotiations"
